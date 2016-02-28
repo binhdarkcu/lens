@@ -1,24 +1,16 @@
 html{
     background: #d3d3d4;
 }
-.hide{
-    display:none;
-}
-.canvas-container-wp{
-  border: 2px solid #000;
-  background:#fff;
-}
-
 .container{
     margin: 0 auto;
-    width: 960px;
+    width: 950px;
 }
 .canvas-container-wp{
     float: left;
 }
 .rightControl{
-    float: right;
-    width: 350px;
+    float: left;
+    width: 26.923em;
 }
 .rightControl .box .title{
     width: 100%;
@@ -33,30 +25,30 @@ html{
     clear: both;
 }
 .rightControl .box{
-    box-shadow: 3px 3px 0px #595757;
-    margin-bottom: 15px;
+    box-shadow: 0.231em 0.231em 0px #595757;
+    margin-bottom: 1.154em;
     background: #fff;
 }
 .rightControl .nomralBox{
     width: 101%;
 }
 .rightControl .nomralBox .vl1 span{
-    width: 220px;
-    margin-top: 13px;
+    width: 16.923em;
+    margin-top: 0.2em;
 }
 .rightControl .nomralBox .vl1{
-    margin-top: 13px;
+    margin-top: 1.000em;
     float: left;
-    margin-bottom: 15px;
+    margin-bottom:1.154em;
     width: 100%;
 }
 .rightControl .nomralBox .vl1.vl2{
     float: right;
     width: auto;
-    margin-right: 1px;
+    margin-right: 0.077em;
 }
 .rightControl .nomralBox .vl1.vl2 span{
-    width: 50px;
+    width: 3.846em;
 }
 .rightControl .nomralBox .vl1 span{
     float: left;
@@ -64,59 +56,65 @@ html{
 .rightControl .nomralBox .inputValue{
     margin-top:0;
     float: left;
-    margin-left: 5px;
-    width: 121px;
+    margin-left: 0.385em;
+    width: 9.308em;
 }
 .rightControl .nomralBox .vl1 img{
     width: 100%;
 }
 .rightControl .circle-img{
-    width: 13px;
+    width: 1.000em;
     float: left;
 }
 .slider.slider-vertical{
-    height:80px;
+    height: 11.538em;
     margin-left: 47%;
     float: left;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 2.308em;
+    margin-top: 1.154em;
 }
 .rightControl .box.box2 .labelA span{
-    font-size: 20px;
+    font-size: 1.538em;
     font-weight: bold;
     font-style: italic;
 }
 .rightControl .box.box2 .labelA input{
 
-    margin-left:5px;
-    margin-top: 15px;
+    margin-left:0.167em;
+    margin-top: 0.500em;
+
 }
 .rightControl .box.box2 .labelA{
     display: table;
     margin: 0 auto;
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
-    box-shadow: 2px 2px 4px #898989;
-    margin-top: -9px;
+    box-shadow: 0.154em 0.154em 0.308em #898989;
+    margin-top: -0.692em;
 }
 .slider.slider-horizontal{
-    margin: -7px auto 0;
+    margin: -0.538em auto 0;
     /* display: table; */
-    padding-bottom: 61px;
+    padding-bottom: 4.692em;
     float: left;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 1.385em;
+    margin-right: 1.385em;
 }
 .slider.slider-horizontal{
-    width: 289px;
+    width: 22.231em;
 }
 .rightControl .box.box3 .slider-selection.tick-slider-selection{
     display: none;
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
     background: url("../images/slider.png") no-repeat;
-    width: 26px;
-    height: 26px;
+    width: 2.000em;
+    height: 2.000em;
+    background-size: contain;
+}
+.slider.slider-horizontal .slider-track{
+    height: 0.769em;
+    margin-top:0.385em;
 }
 .rightControl .box.box3{
     position: relative;
@@ -124,28 +122,28 @@ html{
 .slideStamp{
     background: #595757;
     position: absolute;
-    width: 289px;
-    height: 10px;
-    bottom: 25px;
+    width: 22.231em;
+    height: 0.769em;
+    bottom: 1.923em;
     z-index: 0;
-    left: 26px;
-    border: 5px solid #c9caca;
-    border-radius: 10px;
+    left: 2.000em;
+    border: 0.385em solid #c9caca;
+    border-radius: 0.769em;
 }
 .buttons2{
-    padding-top: 15px;
+    padding-top: 1.154em;
 }
 .buttons2 a#btnReset img{
-    width: 209px;
+    width: 16.077em;
 }
 .buttons2 a#btnReset{
     float: none;
     display: table;
-    margin: 15px auto;
+    margin: 1.154em auto;
 }
 .buttons2 a{
     float: left;
-    width: 162px;
+    width: 12.462em;
 }
 .buttons2 a img{
     width: 100%;
@@ -154,17 +152,19 @@ html{
     float: right;
 }
 .rightControl .box.box3 .slider.slider-horizontal{
-    width: 170px;
+    width: 13.077em;
     display: table;
     margin: 0 auto;
     float: none;
     z-index: 2;
+    padding-bottom: 6.3em;
 }
 .rightControl .box.box3 .slider.slider-horizontal .slider-handle{
     background: url("../images/circle-s2.png") no-repeat;
-    width: 13px;
-    height: 63px;
-    margin-top: -30px;
+    width: 1.000em;
+    height: 4.846em;
+    margin-top: -2.308em;
+    background-size: contain;
 }
 .rightControl .box.box3 .slider-track{
     border-left: none;
@@ -173,31 +173,31 @@ html{
 }
 .inputValue{
     color: #ff0000;
-    border: 3px solid #000;
-    width: 88px;
-    font-size: 30px;
-    height:30px;
+    border: 0.100em solid #000;
+    width: 2.933em;
+    font-size: 1.000em;
+    height: 1.533em;
     text-align: center;
     font-weight: bold;
-    margin-top:65px;
-    margin-left: 20px;
+    margin-top: 11.167em;
+    margin-left: 0.667em;
 }
 .slider-track{
-    border: 5px solid #c9caca;
+    border: 0.385em solid #c9caca;
 }
 .slider-track{
-    border-radius: 12px;
+    border-radius: 0.923em;
 }
 .slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle{
-    margin-left: -10px;
-    box-shadow: 2px 2px 4px #898989;
+    margin-left: -0.769em;
+    box-shadow: 0.154em 0.154em 0.308em #898989;
 }
 .slider-handle{
     background: url("../images/slider.png") no-repeat;
-    width: 26px;
-
-    height: 26px;
+    width: 2.000em;
+    background-size: contain;
+    height: 2em;
 }
 .slider.slider-vertical .slider-track{
-    width: 7px;
+    width: 0.538em;
 }
