@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
 <style type="text/css">
     .canvas-container-wp{
         text-align: center;
@@ -60,18 +60,19 @@
                <div class="clear"></div>
            </div>
 
-           <label><span>F:</span>
-               <input type="text" id="f-control" value="50" min="15" max="100"> F =: <span id="f-value">50</span>
-           </label>
-           </p>
-           <p>
-               <label><span>A:</span>
-                   <input type="range" id="left-control" value="100" min="15" max="200"> a =: <span id="range-value">100</span>
-               </label>
-           </p>
-           <p>
+           <div class="nomralBox">
+               <div class="buttons2">
+                   <a href="#" id="btnType1"><img src="images/button1.png"/></a>
+                   <a href="#" id="btnType2" class="btn2"><img src="images/button2.png"/></a>
+                   <div class="clear"></div>
+               </div>
+           </div>
 
-
+           <div class="nomralBox">
+               <div class="buttons2">
+                   <a href="#" id="btnReset"><img src="images/button3.png"/></a>
+               </div>
+           </div>
        </div>
    </div>
     <script src="lib/fabric.js"></script>

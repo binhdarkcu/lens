@@ -124,6 +124,27 @@ html{
     border: 5px solid #c9caca;
     border-radius: 10px;
 }
+.buttons2{
+    padding-top: 15px;
+}
+.buttons2 a#btnReset img{
+    width: 209px;
+}
+.buttons2 a#btnReset{
+    float: none;
+    display: table;
+    margin: 15px auto;
+}
+.buttons2 a{
+    float: left;
+    width: 162px;
+}
+.buttons2 a img{
+    width: 100%;
+}
+.buttons2 a.btn2{
+    float: right;
+}
 .rightControl .box.box3 .slider.slider-horizontal{
     width: 170px;
     display: table;
