@@ -1,0 +1,174 @@
+html{
+    background: #d3d3d4;
+}
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+.canvas-container-wp{
+    float: left;
+}
+.rightControl{
+    float: left;
+    width: 350px;
+}
+.rightControl .box .title{
+    width: 100%;
+    position: relative;
+    left: -2px;
+}
+.rightControl .box .title img{
+    width: 100%;
+    border-left: 2px solid #5f80ba;
+}
+.clear{
+    clear: both;
+}
+.rightControl .box{
+    box-shadow: 3px 3px 0px #595757;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.rightControl .nomralBox{
+    width: 101%;
+}
+.rightControl .nomralBox .vl1 span{
+    width: 220px;
+    margin-top: 13px;
+}
+.rightControl .nomralBox .vl1{
+    margin-top: 13px;
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.rightControl .nomralBox .vl1.vl2{
+    float: right;
+    width: auto;
+    margin-right: 1px;
+}
+.rightControl .nomralBox .vl1.vl2 span{
+    width: 50px;
+}
+.rightControl .nomralBox .vl1 span{
+    float: left;
+}
+.rightControl .nomralBox .inputValue{
+    margin-top:0;
+    float: left;
+    margin-left: 5px;
+    width: 121px;
+}
+.rightControl .nomralBox .vl1 img{
+    width: 100%;
+}
+.rightControl .circle-img{
+    width: 13px;
+    float: left;
+}
+.slider.slider-vertical{
+    height: 150px;
+    margin-left: 47%;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.rightControl .box.box2 .labelA span{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.rightControl .box.box2 .labelA input{
+
+    margin-left:5px;
+    margin-top: 15px;
+}
+.rightControl .box.box2 .labelA{
+    display: table;
+    margin: 0 auto;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+    box-shadow: 2px 2px 4px #898989;
+    margin-top: -9px;
+}
+.slider.slider-horizontal{
+    margin: -7px auto 0;
+    /* display: table; */
+    padding-bottom: 61px;
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.slider.slider-horizontal{
+    width: 289px;
+}
+.rightControl .box.box3 .slider-selection.tick-slider-selection{
+    display: none;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+    background: url("../images/slider.png") no-repeat;
+    width: 26px;
+    height: 26px;
+}
+.rightControl .box.box3{
+    position: relative;
+}
+.slideStamp{
+    background: #595757;
+    position: absolute;
+    width: 289px;
+    height: 10px;
+    bottom: 25px;
+    z-index: 0;
+    left: 26px;
+    border: 5px solid #c9caca;
+    border-radius: 10px;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+    width: 170px;
+    display: table;
+    margin: 0 auto;
+    float: none;
+    z-index: 2;
+}
+.rightControl .box.box3 .slider.slider-horizontal .slider-handle{
+    background: url("../images/circle-s2.png") no-repeat;
+    width: 13px;
+    height: 63px;
+    margin-top: -30px;
+}
+.rightControl .box.box3 .slider-track{
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.inputValue{
+    color: #ff0000;
+    border: 3px solid #000;
+    width: 88px;
+    font-size: 30px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 125px;
+    margin-left: 20px;
+}
+.slider-track{
+    border: 5px solid #c9caca;
+}
+.slider-track{
+    border-radius: 12px;
+}
+.slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle{
+    margin-left: -10px;
+    box-shadow: 2px 2px 4px #898989;
+}
+.slider-handle{
+    background: url("../images/slider.png") no-repeat;
+    width: 26px;
+
+    height: 26px;
+}
+.slider.slider-vertical .slider-track{
+    width: 7px;
+}

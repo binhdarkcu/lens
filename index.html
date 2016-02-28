@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<style type="text/css">
+    .canvas-container-wp{
+        text-align: center;
+    }
+    .canvas-container{
+        display:inline-block;
+        text-align: center;
+    }
+</style>
+    <link rel="stylesheet" href="css/bootstrap-slider.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <div class="container">
+       <div class="canvas-container-wp" width="1000" height="600">
+           <canvas id="c" width="600" height="400"></canvas>
+       </div>
+       <div class="rightControl">
+           <div class="box box1">
+               <div class="title"><img src="images/t1.jpg"/></div>
+               <input id="dValue" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical"/>
+               <input id="valueofD" class="inputValue" type="number" value="50">
+               <div class="clear"></div>
+           </div>
+
+
+           <div class="box box2">
+               <div class="title"><img src="images/t2.jpg"/></div>
+               <div class="labelA">
+                   <span>a = </span> <input id="valueofA" class="inputValue" type="number" value="100">
+               </div>
+               <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" />
+               <img src="images/circle-s.png" class="circle-img"/>
+               <div class="clear"></div>
+           </div>
+
+           <div class="box box2 box3">
+               <div class="title"><img src="images/t3.jpg"/></div>
+               <div class="labelA">
+                   <span>f = </span> <input id="valueofF" class="inputValue" type="number" value="50">
+               </div>
+               <input id="fValue" type="text" data-slider-ticks="[15, 100]"  data-slider-min="15" data-slider-max="100" data-slider-step="1" data-slider-value="60" />
+               <div class="slideStamp"></div>
+               <div class="clear"></div>
+           </div>
+
+           <div class="nomralBox">
+               <div class="vl1">
+                   <span><img src="images/t4.jpg"/></span>
+                   <input id="valueOfB" class="inputValue" type="text" value="100">
+               </div>
+               <div class="vl1 vl2">
+                   <span><img src="images/t5.jpg"/></span>
+                   <input id="valueOfM" class="inputValue" type="text" value="1">
+               </div>
+               <div class="clear"></div>
+           </div>
+
+           <label><span>F:</span>
+               <input type="text" id="f-control" value="50" min="15" max="100"> F =: <span id="f-value">50</span>
+           </label>
+           </p>
+           <p>
+               <label><span>A:</span>
+                   <input type="range" id="left-control" value="100" min="15" max="200"> a =: <span id="range-value">100</span>
+               </label>
+           </p>
+           <p>
+
+
+       </div>
+   </div>
+    <script src="lib/fabric.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="lib/bootstrap-slider.js"></script>
+    <script src="lib/class.SiteMain.js"></script>
+    <script>
+  
+(function() {
+  var canvas = this.__canvas = new fabric.Canvas('c');
+  fabric.Object.prototype.transparentCorners = false;
+  var $ = function(id){return document.getElementById(id)};
+  var line = makeLine([0, 200, 600, 200 ],'green',2);
+  canvas.add(line);
+  makeLend(50);
+  makeLineGroup();
+  // var angleControl = $('angle-control');
+  // angleControl.onchange = function() {
+  //   rect.setAngle(parseInt(this.value, 10)).setCoords();
+  //   canvas.renderAll();
+  // };
+
+  // var scaleControl = $('scale-control');
+  // scaleControl.onchange = function() {
+  //   rect.scale(parseFloat(this.value)).setCoords();
+  //   canvas.renderAll();
+  // };
+
+  // var topControl = $('top-control');
+  // topControl.onchange = function() {
+  //   rect.setTop(parseInt(this.value, 10)).setCoords();
+  //   canvas.renderAll();
+  // };
+
+  var lightTopLeft,lightCenter,lightBottomLeft,lightTopright,lightBottomright;
+  var lenTrue, lenFalse, glass,f1,f2;
+
+  function makeLend(heightLen){
+    
+    var angleF = line.get('y1');
+    var heightLine = line.get('y1');
+    var angleStart  = parseInt( getCenterLine() - 100 );
+    var angleSrart2 = parseInt( getCenterLine() + 100 );
+    lenTrue = makeLine([angleStart, heightLine, angleStart, heightLine - heightLen ],'blue',5);
+    //glass = makeGlass(140,width/2);
+    f1 = makeF(angleF,(getCenterLine() - 50 ));
+    f2 = makeF(angleF,(getCenterLine() + 55 ));
+    glass = makeRec(140,getCenterLine());
+    canvas.add(lenTrue,f1,f2,glass);
+    lenFalse = makeLine([ getCenterLine() + getDLenFalse(), heightLine, angleSrart2,heightLine + getHeightLenFalse()],'#000',5);
+    canvas.add(lenFalse);
+    setGlass();
+  }
+
+  function makeLineGroup(){
+   var angleStart = lenTrue.get('x1');
+   var widthLine = line.get('x2');
+   var heightLend = lenTrue.get('y2');
+   var color = 'red';
+   var borderWidth =2;
+   var leftGlass = glass.getLeft();
+   var widthGlass = glass.getBoundingRectWidth();
+   var angleEnd = leftGlass - (widthGlass/2);
+   lightTopLeft = makeLine([angleStart, heightLend, getCenterLine(), heightLend ],color,borderWidth);
+   var endPointCenter = getXLine() +  getHeightLenTrue() + (getHeightLenFalse() * 2 );
+   lightCenter = makeLine([angleStart, heightLend, widthLine,endPointCenter],color,borderWidth,false,true);
+   
+   var endPointLineBottom =  lenFalse.get('x1');
+   console.log(getXLine());
+   lightBottomLeft = makeLine([angleStart, heightLend, 285, 220 ],color,borderWidth);
+   lightTopright = makeLine([getCenterLine(), heightLend, widthLine, 350 ],'red',borderWidth);
+   lightBottomright = makeLine([285, 220, widthLine, 220 ],'red',borderWidth);
+   canvas.add(lightTopLeft,lightCenter,lightBottomLeft,lightTopright,lightBottomright);
+   
+  }
+
+  function makeLine(coords,bg,bw,blockX,blockY) {
+            return new fabric.Line(coords, {
+              fill: bg,
+              stroke:bg,
+              strokeWidth: bw,
+              lockMovementY:blockY || false,
+              lockMovementX:blockX || false,
+              originX: 'center',
+               originY: 'center',
+              selectable: true
+            });
+      }
+  function makeGlass(top,left){
+    return  new fabric.Circle(
+      { 
+        radius:60,
+        angle:90,
+        fill: '#eee',
+        top:top,left:left,
+        scaleY:0.2, flipY: true,
+        strokeWidth:3,stroke:'black'
+       }
+     );
+  }
+ 
+  function setGlass(){
+   //var widthGlass = glass.getBoundingRectWidth();
+  // var heightGlass  = glass.getBoundingRectHeight();
+   var heightGlass =  glass.getHeight();
+   var widthGlass = glass.getWidth();
+    glass.setLeft( getCenterLine() - (widthGlass/2) );
+    glass.setTop( getXLine() - (heightGlass/2) );
+  }
+
+  function getCenterLine(){
+    return  line.getWidth() / 2 ;
+  }
+
+  function getXLine(){
+     return line.get('y1');
+  }
+
+  function makeF(angleStart,left){
+    return new fabric.Triangle({ top: angleStart,angle:180, left: left, width:10, height:10, fill: 'blue' });
+  }
+
+  function getHeightLenFalse(){
+   // h' =  (d'/ d) * h: cong thuc tinh chieu cao anh ảo
+    var h = (getDLenFalse() / getDLenTrue()) * getHeightLenTrue();
+     return h;
+  }
+
+ function getDLenFalse(){
+    // d' = (d*f)/ (d-f); cong thuc tinh khoảng cách ảnh ảo
+    var d = (getDLenTrue () * getFLenTrue()) / (getDLenTrue () - getFLenTrue());
+   return d;
+
+ }
+
+function getDLenTrue(){
+    return  getCenterLine() - lenTrue.get('y1');
+ }
+
+ function getFLenTrue(){
+   // get tiêu cu anh that (F1)
+   return getCenterLine() - f1.getLeft();
+ }
+
+  function getFLenFlase(){
+    // get tieu cự ảnh ảo (F2)
+    return   line.get('y1') - getCenterLine();
+
+ }
+
+ function getHeightLenTrue(){
+   return lenTrue.getHeight();
+ }
+
+
+
+
+  function makeRec(top,left){
+    return new fabric.Rect({ left: left, top: top, fill: '#77f', width: 40, height: 160 });
+  }
+
+
+  var leftControl = $('left-control');
+  var fConttol = $('f-control');
+  leftControl.onchange = function() {
+     var valueRange = parseInt(this.value,10);
+     lenTrue.set({'x1': valueRange,'x2':valueRange});
+     lightTopLeft.set({'x1':valueRange});
+     lightCenter.set({'x1':valueRange});
+     lightBottomLeft.set({'x1':valueRange});
+     lenFalse.set({'y2':valueRange});
+     document.getElementById('range-value').innerHTML = parseInt(this.value,10) ;
+    canvas.renderAll();
+  };
+
+  function updateControls() {
+    //scaleControl.value = rect.getScaleX();
+    //angleControl.value = rect.getAngle();
+    leftControl.value = lenTrue.get('x1');
+    //fControl.value = f1.get();
+    //topControl.value = rect.getTop();
+    
+  }
+  canvas.on({
+    'object:moving': updateControls,
+    'object:scaling': updateControls,
+    'object:resizing': updateControls,
+    'object:rotating': updateControls
+  });
+})();
+
+    </script>
+
+
+
+</body>
+</html>
