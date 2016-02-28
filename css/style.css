@@ -77,6 +77,8 @@ html{
     font-size: 1.538em;
     font-weight: bold;
     font-style: italic;
+    top: 0.2em;
+    position: relative;
 }
 .rightControl .box.box2 .labelA input{
 
