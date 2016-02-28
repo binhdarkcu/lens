@@ -3,7 +3,7 @@ html{
 }
 .container{
     margin: 0 auto;
-    width: 73.077em;
+    width: 950px;
 }
 .canvas-container-wp{
     float: left;
@@ -34,7 +34,7 @@ html{
 }
 .rightControl .nomralBox .vl1 span{
     width: 16.923em;
-    margin-top: 1.000em;
+    margin-top: 0.2em;
 }
 .rightControl .nomralBox .vl1{
     margin-top: 1.000em;
@@ -157,6 +157,7 @@ html{
     margin: 0 auto;
     float: none;
     z-index: 2;
+    padding-bottom: 6.3em;
 }
 .rightControl .box.box3 .slider.slider-horizontal .slider-handle{
     background: url("../images/circle-s2.png") no-repeat;
