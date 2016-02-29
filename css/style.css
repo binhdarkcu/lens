@@ -1,9 +1,11 @@
 html{
     background: #d3d3d4;
 }
+
 .hide{
     display:none;
 }
+
 .container{
     margin: 0 auto;
     width: 950px;
