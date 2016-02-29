@@ -1,0 +1,208 @@
+html{
+    background: #d3d3d4;
+}
+.hide{
+    display:none;
+}
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+.canvas-container-wp{
+    float: left;
+}
+.rightControl{
+    float: left;
+    width: 26.923em;
+}
+.rightControl .box .title{
+    width: 100%;
+    position: relative;
+    left: -2px;
+}
+.rightControl .box .title img{
+    width: 100%;
+    border-left: 2px solid #5f80ba;
+}
+.clear{
+    clear: both;
+}
+.rightControl .box{
+    box-shadow: 0.231em 0.231em 0px #595757;
+    margin-bottom: 1.154em;
+    background: #fff;
+}
+.rightControl .nomralBox{
+    width: 101%;
+}
+.rightControl .nomralBox .vl1 span{
+    width: 16.923em;
+    margin-top: 0.2em;
+}
+.rightControl .nomralBox .vl1{
+    margin-top: 1.000em;
+    float: left;
+    margin-bottom:1.154em;
+    width: 100%;
+}
+.rightControl .nomralBox .vl1.vl2{
+    float: right;
+    width: auto;
+    margin-right: 0.077em;
+}
+.rightControl .nomralBox .vl1.vl2 span{
+    width: 3.846em;
+}
+.rightControl .nomralBox .vl1 span{
+    float: left;
+}
+.rightControl .nomralBox .inputValue{
+    margin-top:0;
+    float: left;
+    margin-left: 0.385em;
+    width: 9.308em;
+}
+.rightControl .nomralBox .vl1 img{
+    width: 100%;
+}
+.rightControl .circle-img{
+    width: 1.000em;
+    float: left;
+}
+.slider.slider-vertical{
+    height: 11.538em;
+    margin-left: 47%;
+    float: left;
+    margin-bottom: 2.308em;
+    margin-top: 1.154em;
+}
+.rightControl .box.box2 .labelA span{
+    font-size: 1.538em;
+    font-weight: bold;
+    font-style: italic;
+    top: 0.2em;
+    position: relative;
+}
+.rightControl .box.box2 .labelA input{
+
+    margin-left:0.167em;
+    margin-top: 0.500em;
+
+}
+.rightControl .box.box2 .labelA{
+    display: table;
+    margin: 0 auto;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+    box-shadow: 0.154em 0.154em 0.308em #898989;
+    margin-top: -0.692em;
+}
+.slider.slider-horizontal{
+    margin: -0.538em auto 0;
+    /* display: table; */
+    padding-bottom: 4.692em;
+    float: left;
+    margin-left: 1.385em;
+    margin-right: 1.385em;
+}
+.slider.slider-horizontal{
+    width: 22.231em;
+}
+.rightControl .box.box3 .slider-selection.tick-slider-selection{
+    display: none;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+    background: url("../images/slider.png") no-repeat;
+    width: 2.000em;
+    height: 2.000em;
+    background-size: contain;
+}
+.slider.slider-horizontal .slider-track{
+    height: 0.769em;
+    margin-top:0.385em;
+}
+.rightControl .box.box3{
+    position: relative;
+}
+.slideStamp{
+    background: #595757;
+    position: absolute;
+    width: 22.231em;
+    height: 0.769em;
+    bottom: 1.923em;
+    z-index: 0;
+    left: 2.000em;
+    border: 0.385em solid #c9caca;
+    border-radius: 0.769em;
+}
+.buttons2{
+    padding-top: 1.154em;
+}
+.buttons2 a#btnReset img{
+    width: 16.077em;
+}
+.buttons2 a#btnReset{
+    float: none;
+    display: table;
+    margin: 1.154em auto;
+}
+.buttons2 a{
+    float: left;
+    width: 12.462em;
+}
+.buttons2 a img{
+    width: 100%;
+}
+.buttons2 a.btn2{
+    float: right;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+    width: 13.077em;
+    display: table;
+    margin: 0 auto;
+    float: none;
+    z-index: 2;
+    padding-bottom: 6.3em;
+}
+.rightControl .box.box3 .slider.slider-horizontal .slider-handle{
+    background: url("../images/circle-s2.png") no-repeat;
+    width: 1.000em;
+    height: 4.846em;
+    margin-top: -2.308em;
+    background-size: contain;
+}
+.rightControl .box.box3 .slider-track{
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.inputValue{
+    color: #ff0000;
+    border: 0.100em solid #000;
+    width: 2.933em;
+    font-size: 1.000em;
+    height: 1.533em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 11.167em;
+    margin-left: 0.667em;
+}
+.slider-track{
+    border: 0.385em solid #c9caca;
+}
+.slider-track{
+    border-radius: 0.923em;
+}
+.slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle{
+    margin-left: -0.769em;
+    box-shadow: 0.154em 0.154em 0.308em #898989;
+}
+.slider-handle{
+    background: url("../images/slider.png") no-repeat;
+    width: 2.000em;
+    background-size: contain;
+    height: 2em;
+}
+.slider.slider-vertical .slider-track{
+    width: 0.538em;
+}
