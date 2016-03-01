@@ -160,7 +160,7 @@ html{
 .rightControl .box.box3 .slider.slider-horizontal{
     width: 170px;
     display: table;
-    margin: 0 auto 10px;
+    margin: 5px auto 10px;
     float: none;
     z-index: 2;
 }
@@ -196,15 +196,15 @@ html{
     background: url(../images/circle-s2.png) no-repeat;
     width: 13px;
     height: 63px;
-    bottom: 8px;
+    bottom: 12px;
     left: 50%;
     z-index: 2;
-    margin-left: -1px;
+    margin-left: -6px;
 }
 .inputValue{
     color: #ff0000;
     border: 3px solid #000;
-    width: 77px;
+    width: 65px;
     font-size: 28px;
     height:30px;
     text-align: center;
@@ -214,6 +214,16 @@ html{
 }
 .slider-track{
     border: 5px solid #c9caca;
+}
+.rightControl .box.box3 .f-box .slider.slider-horizontal .slider-track{
+    border:none;
+    box-shadow: 0px 0px 0px 5px #C9CABA;
+    -webkit-box-shadow:0px 0px 0px 5px #C9CABA;
+    -moz-box-shadow:0px 0px 0px 5px #C9CABA;
+
+}
+.rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
+
 }
 .slider-track{
     border-radius: 12px;
