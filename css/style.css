@@ -47,7 +47,7 @@ html{
 .rightControl .nomralBox .vl1{
     margin-top: 5px;
     float: left;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     width: 100%;
 }
 .rightControl .nomralBox .vl1.vl2{
@@ -108,11 +108,11 @@ html{
     /* display: table; */
     padding-bottom: 55px;
     float: left;
-    margin-left: 18px;
+    margin-left: 32px;
     margin-right: 18px;
 }
 .slider.slider-horizontal{
-    width: 240px;
+    width: 225px;
 }
 .rightControl .box.box3 .slider-selection.tick-slider-selection{
     display: none;
@@ -140,7 +140,7 @@ html{
     padding-top: 10px;
 }
 .buttons2 a#btnReset img{
-    width: 178px;
+    width: 176px;
 }
 .buttons2 a#btnReset{
     float: none;
@@ -149,7 +149,7 @@ html{
 }
 .buttons2 a{
     float: left;
-    width: 135px;
+    width: 130px;
 }
 .buttons2 a img{
     width: 100%;
@@ -217,10 +217,16 @@ html{
 }
 .rightControl .box.box3 .f-box .slider.slider-horizontal .slider-track{
     border:none;
-    box-shadow: 0px 0px 0px 5px #C9CABA;
-    -webkit-box-shadow:0px 0px 0px 5px #C9CABA;
-    -moz-box-shadow:0px 0px 0px 5px #C9CABA;
+    box-shadow: 0px 0px 0px 4px #C9CABA;
+    -webkit-box-shadow:0px 0px 0px 4px #C9CABA;
+    -moz-box-shadow:0px 0px 0px 4px #C9CABA;
 
+}
+.slider.slider-vertical .slider-track, .slider.slider-horizontal .slider-track{
+    border:none;
+    box-shadow: 0px 0px 0px 4px #C9CABA;
+    -webkit-box-shadow:0px 0px 0px 4px #C9CABA;
+    -moz-box-shadow:0px 0px 0px 4px #C9CABA;
 }
 .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
 
