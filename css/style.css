@@ -34,7 +34,7 @@ html{
 }
 .rightControl .box{
     box-shadow: 3px 3px 0px #595757;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background: #fff;
 }
 .rightControl .nomralBox{
@@ -42,12 +42,12 @@ html{
 }
 .rightControl .nomralBox .vl1 span{
     width: 180px;
-    margin-top: 9px;
+    margin-top: 7px;
 }
 .rightControl .nomralBox .vl1{
-    margin-top: 13px;
+    margin-top: 5px;
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     width: 100%;
 }
 .rightControl .nomralBox .vl1.vl2{
@@ -73,23 +73,27 @@ html{
 .rightControl .circle-img{
     width: 13px;
     float: left;
+    margin-top: -5px;
 }
 .slider.slider-vertical{
     height:80px;
     margin-left: 47%;
     float: left;
     margin-bottom: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .rightControl .box.box2 .labelA span{
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
+    position: relative;
+    top: -3px;
 }
 .rightControl .box.box2 .labelA input{
 
     margin-left:5px;
-    margin-top: 15px;
+
+    margin-top: 12px;
 }
 .rightControl .box.box2 .labelA{
     display: table;
@@ -97,12 +101,12 @@ html{
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
     box-shadow: 2px 2px 4px #898989;
-    margin-top: -9px;
+    margin-top: -10px;
 }
 .slider.slider-horizontal{
     margin: -7px auto 0;
     /* display: table; */
-    padding-bottom: 61px;
+    padding-bottom: 55px;
     float: left;
     margin-left: 18px;
     margin-right: 18px;
@@ -133,7 +137,7 @@ html{
     border-radius: 10px;
 }
 .buttons2{
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .buttons2 a#btnReset img{
     width: 180px;
@@ -141,7 +145,7 @@ html{
 .buttons2 a#btnReset{
     float: none;
     display: table;
-    margin: 15px auto;
+    margin: 5px auto;
 }
 .buttons2 a{
     float: left;
@@ -156,7 +160,7 @@ html{
 .rightControl .box.box3 .slider.slider-horizontal{
     width: 170px;
     display: table;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     float: none;
     z-index: 2;
 }
@@ -192,7 +196,7 @@ html{
     background: url(../images/circle-s2.png) no-repeat;
     width: 13px;
     height: 63px;
-    bottom: 5px;
+    bottom: 8px;
     left: 50%;
     z-index: 2;
     margin-left: -4px;
@@ -200,12 +204,12 @@ html{
 .inputValue{
     color: #ff0000;
     border: 3px solid #000;
-    width: 88px;
-    font-size: 30px;
+    width: 77px;
+    font-size: 28px;
     height:30px;
     text-align: center;
     font-weight: bold;
-    margin-top:65px;
+    margin-top: 60px;
     margin-left: 20px;
 }
 .slider-track{
