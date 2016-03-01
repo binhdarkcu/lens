@@ -65,7 +65,7 @@ html{
     margin-top:0;
     float: left;
     margin-left: 5px;
-    width: 112px;
+    width: 110px;
 }
 .rightControl .nomralBox .vl1 img{
     width: 100%;
@@ -73,7 +73,7 @@ html{
 .rightControl .circle-img{
     width: 13px;
     float: left;
-    margin-top: -5px;
+    margin-top: -11px;
 }
 .slider.slider-vertical{
     height:80px;
@@ -153,6 +153,7 @@ html{
 }
 .buttons2 a img{
     width: 100%;
+    border:none;
 }
 .buttons2 a.btn2{
     float: right;
@@ -211,6 +212,11 @@ html{
     font-weight: bold;
     margin-top: 60px;
     margin-left: 20px;
+}
+@-moz-document url-prefix() {
+    .inputValue {
+        width: 72px;
+    }
 }
 .slider-track{
     border: 5px solid #c9caca;
