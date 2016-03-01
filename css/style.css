@@ -188,8 +188,8 @@ html{
     float: left;
     margin-left: 5px;
 }
-.rightControl .box.box3 .f-control-2 .slider.slider-horizontal{
-    /* width: 93px; */
+.rightControl .box.box3 .f-control-2 .slider.slider-horizontal .slider-track{
+
 }
 .tempspan{
     position: absolute;
@@ -199,7 +199,7 @@ html{
     bottom: 8px;
     left: 50%;
     z-index: 2;
-    margin-left: -4px;
+    margin-left: -2px;
 }
 .inputValue{
     color: #ff0000;
