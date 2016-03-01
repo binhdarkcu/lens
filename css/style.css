@@ -160,16 +160,42 @@ html{
     float: none;
     z-index: 2;
 }
+.rightControl .box.box3 .f-box > .slider.slider-horizontal {
+    position: relative;
+    z-index: 1;
+}
+.rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
+    position: relative;
+    z-index: 0;
+}
 .rightControl .box.box3 .slider.slider-horizontal .slider-handle{
-    background: url("../images/circle-s2.png") no-repeat;
+}
+.rightControl .box.box3 .f-box{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+    float: left;
+    width: 110px;
+    margin-right: 0px;
+}
+.f-control-2{
+    float: left;
+    margin-left: 5px;
+}
+.rightControl .box.box3 .f-control-2 .slider.slider-horizontal{
+    /* width: 93px; */
+}
+.tempspan{
+    position: absolute;
+    background: url(../images/circle-s2.png) no-repeat;
     width: 13px;
     height: 63px;
-    margin-top: -30px;
-}
-.rightControl .box.box3 .slider-track{
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
+    bottom: 5px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -4px;
 }
 .inputValue{
     color: #ff0000;
