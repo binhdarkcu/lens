@@ -22,7 +22,7 @@
    <div class="container">
        <img style="display: none;" src="images/candles.png" id="candle01"/>
        <div class="canvas-container-wp" width="1000" height="730">
-           <canvas id="c" width="640" height="730"></canvas>
+           <canvas id="c" width="646" height="730"></canvas>
            <img class="hide" src="images/circle.png" id="len-img">
            <img class="hide" src="images/candles.png" id="candles-img">
            <img class="hide" src="images/f1.png" id="f1-img">
@@ -34,14 +34,14 @@
                <div class="title"><img src="images/t1.jpg"/></div>
 
                <input id="len-control" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical"/>
-               <input id="len-value" class="inputValue" type="number" value="50">
+               <input id="len-value" class="inputValue" type="number" value="50" min="0" max="100">
                <div class="clear"></div>
            </div>
 
            <div class="box box2">
                <div class="title"><img src="images/t2.jpg"/></div>
                <div class="labelA">
-                   <span>a = </span> <input id="valueofA" class="inputValue" type="number" value="100">
+                   <span>a = </span> <input id="valueofA" class="inputValue" type="number" value="100" min="15" max="200">
                </div>
                <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" />
                <img src="images/circle-s.png" class="circle-img"/>
@@ -51,7 +51,7 @@
            <div class="box box2 box3">
                <div class="title"><img src="images/t3.jpg"/></div>
                <div class="labelA">
-                   <span>f = </span> <input id="valueofF" class="inputValue" type="number" value="50">
+                   <span>f = </span> <input id="valueofF" class="inputValue" type="number" value="50" min="15" max="100">
                </div>
                <div class="f-box">
                    <input id="f-control" type="text"  data-slider-min="15" data-slider-max="100" data-slider-step="1" data-slider-value="50" />
@@ -91,6 +91,7 @@
            </div>
        </div>
    </div>
+   <script src="lib/underscore.js"></script>
     <script src="lib/fabric.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/bootstrap-slider.js"></script>
