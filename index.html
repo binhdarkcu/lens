@@ -197,13 +197,32 @@
                </div>
            </div>
        </div>
+       <div class="chagneview" style="margin-top:8px; clear: both;">
+           <a href="javascript:void(0);" id="moveLeft"><img src="images/left.png"/> </a>
+           <a href="javascript:void(0);" style="display: none;" id="moveRight"><img src="images/right.png"/> </a>
+       </div>
+
    </div>
+
    <script src="lib/underscore.js"></script>
     <script src="lib/fabric.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/bootstrap-slider.js"></script>
     <script src="lib/main.js"></script>
     <script src="lib/class.SiteMain.js"></script>
-    
+    <script>
+        $(document).ready(function(){
+           $('#moveLeft').click(function(){
+               $('body').addClass('moveLeft').removeClass('moveRight');
+               $(this).hide();
+               $('#moveRight').show();
+           });
+            $('#moveRight').click(function(){
+                $('body').addClass('moveRight').removeClass('moveLeft');
+                $(this).hide();
+                $('#moveLeft').show();
+            });
+        });
+    </script>
 </body>
 </html>

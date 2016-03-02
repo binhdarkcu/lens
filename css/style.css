@@ -164,6 +164,9 @@ html{
 }
 .buttons2 a.btn2{
     float: right;
+    width: 83px;
+    margin-right: 4px;
+    margin-top: 1px;
 }
 .rightControl .box.box3 .slider.slider-horizontal{
     width: 170px;
@@ -266,4 +269,24 @@ html{
 }
 .slider.slider-vertical .slider-track{
     width: 4px;
+}
+
+body.moveLeft .rightControl{
+    float: left;
+}
+body.moveLeft .canvas-container-wp{
+    float: right;
+}
+body.moveRight .rightControl{
+    float: right;
+}
+body.moveRight .canvas-container-wp{
+    float: left;
+}
+#moveLeft{
+    margin-left: -16px;
+}
+#moveRight{
+    float: right;
+    margin-right: -16px;
 }
