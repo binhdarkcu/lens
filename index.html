@@ -2,10 +2,13 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
     <meta charset="utf-8">
-<script type="text/javascript" src="lib/jquery.js"></script>
-
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="lib/jquery.plugin.js"></script>
+  <script src="lib/jquery.keypad.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-slider.css" />
+   <link rel="stylesheet" href="css/jquery.keypad.css" />
+  <link rel="stylesheet" href="css/style.css" />
 <style type="text/css">
     .canvas-container-wp{
         text-align: center;
@@ -14,9 +17,32 @@
         display:inline-block;
         text-align: center;
     }
+    * {
+    box-sizing: content-box;
+   }
+   .inputValue{
+    line-height:30px;
+   }
 </style>
-    <link rel="stylesheet" href="css/bootstrap-slider.css" />
-    <link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript">
+   
+     $(function () {
+       var layout =['01234','56789', ' ' + $.keypad.ENTER];
+       var enterText = '';
+       $('#len-value').keypad({
+        layout:layout,
+        beforeShow: function(div, inst) { 
+          
+        },
+        onKeypress: function(key, value, inst) { 
+             
+           console.log(value);
+         } 
+
+    });
+     });
+
+</script>
 </head>
 <body>
    <div class="container">
@@ -29,12 +55,15 @@
            <img class="hide" src="images/f2.png" id="f2-img">
            <img class="hide" src="images/candles-2.png" id="f15-img">
        </div>
+
+
        <div class="rightControl">
+         
            <div class="box box1">
                <div class="title"><img src="images/t1.jpg"/></div>
 
                <input id="len-control" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical"/>
-               <input id="len-value" class="inputValue" type="number" value="50" min="0" max="100">
+               <input id="len-value" class="inputValue" type="text" value="50">
                <div class="clear"></div>
            </div>
 
@@ -95,7 +124,8 @@
     <script src="lib/fabric.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/bootstrap-slider.js"></script>
-   <script src="lib/main.js"></script>
-   <script src="lib/class.SiteMain.js"></script>
+    <script src="lib/main.js"></script>
+    <script src="lib/class.SiteMain.js"></script>
+    
 </body>
 </html>
