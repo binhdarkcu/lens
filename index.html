@@ -5,7 +5,7 @@
     <meta charset="utf-8">
   <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="lib/jquery.plugin.js"></script>
-  <script src="lib/jquery.keypad.min.js"></script>
+  <script src="lib/jquery.keypad.js"></script>
   <link rel="stylesheet" href="css/bootstrap-slider.css" />
    <link rel="stylesheet" href="css/jquery.keypad.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -27,20 +27,100 @@
 <script type="text/javascript">
    
      $(function () {
-       var layout =['01234','56789', ' ' + $.keypad.ENTER];
+       var layout =['01234','56789', $.keypad.BACK + $.keypad.ENTER];
        var enterText = '';
+       var hD = 50;
+       var a = 100;
+       var f= 50;
        $('#len-value').keypad({
         layout:layout,
         beforeShow: function(div, inst) { 
-          
-        },
-        onKeypress: function(key, value, inst) { 
+          hD = inst._input.val();
+          if($('.keypad-popup').is(':visible')){
+              inst._input.val('');
+          }
+          $('.keypad-enter').click(function(){
+             var newval = inst._input.val();
+             if(newval > 100){
+                 inst._input.val(100);
+             }
+              hD = inst._input.val();
+              addEvent('changeH',inst._input.val());
              
-           console.log(value);
-         } 
+          })
+        },
+        onClose:function(value, inst){
+          inst._input.val(hD); 
+          addEvent('changeH',inst._input.val());
+        }
 
     });
-     });
+
+     $('#valueofA').keypad({
+        layout:layout,
+        beforeShow: function(div, inst) { 
+          a = inst._input.val();
+          if($('.keypad-popup').is(':visible')){
+              inst._input.val('');
+          }
+          $('.keypad-enter').click(function(){
+             var aValue = inst._input.val();
+             if(aValue > 200){
+                 inst._input.val(200);
+             }else{
+                if(aValue < 15){
+                   inst._input.val(15);
+                }
+             }
+              a = inst._input.val();
+              addEvent('changeA',inst._input.val());
+             
+          })
+        },
+        onClose:function(value, inst){
+          inst._input.val(a); 
+          addEvent('changeA',inst._input.val());
+        }
+
+    });
+
+   $('#valueofF').keypad({
+        layout:layout,
+        beforeShow: function(div, inst) { 
+          a = inst._input.val();
+          if($('.keypad-popup').is(':visible')){
+              inst._input.val('');
+          }
+          $('.keypad-enter').click(function(){
+             var aValue = inst._input.val();
+             if(aValue > 100){
+                 inst._input.val(100);
+             }else{
+                if(aValue<15){
+                  inst._input.val(15);
+                }
+             }
+              a = inst._input.val();
+              addEvent('changeF',inst._input.val());
+             
+          })
+        },
+        onClose:function(value, inst){
+          inst._input.val(a); 
+          addEvent('changeF',inst._input.val());
+        }
+
+    });
+
+
+
+   function addEvent(nameEvent,value){
+        var event = new CustomEvent(nameEvent, { "detail":value});
+      document.dispatchEvent(event);
+   }
+
+
+})
 
 </script>
 </head>
@@ -70,7 +150,7 @@
            <div class="box box2">
                <div class="title"><img src="images/t2.jpg"/></div>
                <div class="labelA">
-                   <span>a = </span> <input id="valueofA" class="inputValue" type="number" value="100" min="15" max="200">
+                   <span>a = </span> <input id="valueofA" class="inputValue" type="text" value="100">
                </div>
                <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" />
                <img src="images/circle-s.png" class="circle-img"/>
@@ -80,7 +160,7 @@
            <div class="box box2 box3">
                <div class="title"><img src="images/t3.jpg"/></div>
                <div class="labelA">
-                   <span>f = </span> <input id="valueofF" class="inputValue" type="number" value="50" min="15" max="100">
+                   <span>f = </span> <input id="valueofF" class="inputValue" type="text" value="50">
                </div>
                <div class="f-box">
                    <input id="f-control" type="text"  data-slider-min="15" data-slider-max="100" data-slider-step="1" data-slider-value="50" />
