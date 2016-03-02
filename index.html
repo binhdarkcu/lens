@@ -20,9 +20,7 @@
     * {
     box-sizing: content-box;
    }
-   .inputValue{
-    line-height:30px;
-   }
+
 </style>
 <script type="text/javascript">
    
@@ -33,7 +31,7 @@
        var a = 100;
        var f= 50;
        $('#len-value').keypad({
-        layout:layout,
+        layout:layout, showAnim: 'fadeIn',enterText:'',
         beforeShow: function(div, inst) { 
           hD = inst._input.val();
           if($('.keypad-popup').is(':visible')){
@@ -57,7 +55,7 @@
     });
 
      $('#valueofA').keypad({
-        layout:layout,
+        layout:layout,showAnim: 'fadeIn',enterText:'',
         beforeShow: function(div, inst) { 
           a = inst._input.val();
           if($('.keypad-popup').is(':visible')){
@@ -85,7 +83,7 @@
     });
 
    $('#valueofF').keypad({
-        layout:layout,
+        layout:layout,showAnim: 'fadeIn',enterText:'',
         beforeShow: function(div, inst) { 
           a = inst._input.val();
           if($('.keypad-popup').is(':visible')){
@@ -128,7 +126,7 @@
    <div class="container">
        <img style="display: none;" src="images/candles.png" id="candle01"/>
        <div class="canvas-container-wp" width="1000" height="730">
-           <canvas id="c" width="646" height="730"></canvas>
+           <canvas id="c" width="770" height="530"></canvas>
            <img class="hide" src="images/circle.png" id="len-img">
            <img class="hide" src="images/candles.png" id="candles-img">
            <img class="hide" src="images/f1.png" id="f1-img">
