@@ -22,7 +22,7 @@ img.keypad-trigger {
     -moz-border-radius: 0.25em;
     -webkit-border-radius: 0.25em;
     border-radius: 0.25em;
-    padding: 12px 0 10px 12px;
+    padding: 12px 10px 10px 0px;
 }
 .keypad-keyentry {
     display: none;
@@ -53,6 +53,7 @@ img.keypad-trigger {
 }
 .keypad-row {
     width: 100%;
+    text-align: right;
 }
 .keypad-space {
     display: inline-block;
@@ -85,7 +86,7 @@ img.keypad-trigger {
 }
 .keypad-enter{
     background: url(../images/enter.png) no-repeat;
-    width: 71px;
+    width: 71px!important;
     height: 31px;
 }
 .keypad-key[disabled] {
@@ -111,6 +112,7 @@ img.keypad-trigger {
 }
 .keypad-back {
     background-color: #00a;
+    margin-top: 8px;
 }
 .keypad-close {
     background-color: #0a0;
