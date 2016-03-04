@@ -22,111 +22,13 @@
    }
 
 </style>
-<script type="text/javascript">
-   
-     $(function () {
-       var layout =['01234','56789', $.keypad.BACK + $.keypad.ENTER];
-       var enterText = '';
-       var hD = 50;
-       var a = 100;
-       var f= 50;
-       $('#len-value').keypad({
-        layout:layout, showAnim: 'fadeIn',enterText:'',
-        beforeShow: function(div, inst) { 
-          hD = inst._input.val();
-          if($('.keypad-popup').is(':visible')){
-              inst._input.val('');
-          }
-          $('.keypad-enter').click(function(){
-             var newval = inst._input.val();
-             if(newval > 100){
-                 inst._input.val(100);
-             }
-              hD = inst._input.val();
-              addEvent('changeH',inst._input.val());
-             
-          })
-        },
-        onClose:function(value, inst){
-          inst._input.val(hD); 
-          addEvent('changeH',inst._input.val());
-        }
 
-    });
-
-     $('#valueofA').keypad({
-        layout:layout,showAnim: 'fadeIn',enterText:'',
-        beforeShow: function(div, inst) { 
-          a = inst._input.val();
-          if($('.keypad-popup').is(':visible')){
-              inst._input.val('');
-          }
-          $('.keypad-enter').click(function(){
-             var aValue = inst._input.val();
-             if(aValue > 200){
-                 inst._input.val(200);
-             }else{
-                if(aValue < 15){
-                   inst._input.val(15);
-                }
-             }
-              a = inst._input.val();
-              addEvent('changeA',inst._input.val());
-             
-          })
-        },
-        onClose:function(value, inst){
-          inst._input.val(a); 
-          addEvent('changeA',inst._input.val());
-        }
-
-    });
-
-   $('#valueofF').keypad({
-        layout:layout,showAnim: 'fadeIn',enterText:'',
-        beforeShow: function(div, inst) { 
-          a = inst._input.val();
-          if($('.keypad-popup').is(':visible')){
-              inst._input.val('');
-          }
-          $('.keypad-enter').click(function(){
-             var aValue = inst._input.val();
-             if(aValue > 100){
-                 inst._input.val(100);
-             }else{
-                if(aValue<15){
-                  inst._input.val(15);
-                }
-             }
-              a = inst._input.val();
-              addEvent('changeF',inst._input.val());
-             
-          })
-        },
-        onClose:function(value, inst){
-          inst._input.val(a); 
-          addEvent('changeF',inst._input.val());
-        }
-
-    });
-
-
-
-   function addEvent(nameEvent,value){
-        var event = new CustomEvent(nameEvent, { "detail":value});
-      document.dispatchEvent(event);
-   }
-
-
-})
-
-</script>
 </head>
 <body>
    <div class="container">
        <img style="display: none;" src="images/candles.png" id="candle01"/>
-       <div class="canvas-container-wp" width="1000" height="730">
-           <canvas id="c" width="770" height="530"></canvas>
+       <div class="canvas-container-wp" width="1400" height="1000">
+           <canvas id="c" width="1400" height="1000"></canvas>
            <img class="hide" src="images/circle.png" id="len-img">
            <img class="hide" src="images/candles.png" id="candles-img">
            <img class="hide" src="images/f1.png" id="f1-img">
@@ -143,14 +45,14 @@
                <div class="title"><img src="images/t1.jpg"/></div>
 
                <input id="len-control" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical"/>
-               <input id="len-value" class="inputValue" type="text" value="50">
+               <input id="len-value" class="inputValue" type="number" min="0" max="100" value="50">
                <div class="clear"></div>
            </div>
 
            <div class="box box2">
                <div class="title"><img src="images/t2.jpg"/></div>
                <div class="labelA">
-                   <span>a = </span> <input id="valueofA" class="inputValue" type="text" value="100">
+                   <span>a = </span> <input id="valueofA" class="inputValue" type="number" min="15" max="200" value="100">
                </div>
                <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" />
                <img src="images/circle-s.png" class="circle-img"/>
@@ -160,7 +62,7 @@
            <div class="box box2 box3">
                <div class="title"><img src="images/t3.jpg"/></div>
                <div class="labelA">
-                   <span>f = </span> <input id="valueofF" class="inputValue" type="text" value="50">
+                   <span>f = </span> <input id="valueofF" class="inputValue" type="number" min="15" max="100" value="50">
                </div>
                <div class="f-box">
                    <input id="f-control" type="text"  data-slider-min="15" data-slider-max="100" data-slider-step="1" data-slider-value="50" />
