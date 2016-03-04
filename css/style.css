@@ -11,17 +11,17 @@ html{
 
 .container{
     margin: 0 auto;
-    width: 1600px;
+    width: 1770px;
 }
 .canvas-container-wp{
     float: left;
 }
 .rightControl{
     float: right;
-    width: 185px;
+    width: 350px;
 }
 .rightControl .box .title{
-    width: 183px;
+    width: 348px;
     position: relative;
     left: 0px;
 }
@@ -33,30 +33,32 @@ html{
     clear: both;
 }
 .rightControl .box{
-    box-shadow: 2px 2px 0px #595757;
-    margin-bottom: 8px;
+    box-shadow: 3px 3px 0px #595757;
+    margin-bottom: 18px;
     background: #fff;
 }
 .rightControl .nomralBox{
     width: 103%;
+    /* margin-top: 28px; */
 }
 .rightControl .nomralBox .vl1 span{
-    width: 118px;
-    margin-top: 7px;
+    width: 221px;
+    margin-top: 15px;
 }
 .rightControl .nomralBox .vl1{
-    margin-top: 5px;
+    margin-top: 18px;
     float: left;
-    margin-bottom: 5px;
+    margin-bottom: 13px;
     width: 100%;
 }
 .rightControl .nomralBox .vl1.vl2{
     float: right;
     width: auto;
-    margin-right: 5px;
+    margin-right: 9px;
+    margin-top: 10px;
 }
 .rightControl .nomralBox .vl1.vl2 span{
-    width: 33px;
+    width: 47px;
 }
 .rightControl .nomralBox .vl1 span{
     float: left;
@@ -64,8 +66,8 @@ html{
 .rightControl .nomralBox .inputValue{
     margin-top:0;
     float: left;
-    margin-left: 3px;
-    width: 61px;
+    margin-left: 4px;
+    width: 122px;
 }
 .rightControl .nomralBox .vl1 img{
     width: 100%;
@@ -74,32 +76,36 @@ html{
     line-height:1;
 }
 .rightControl .circle-img{
-    width: 10px;
+    width: 15px;
     float: left;
-    margin-top: -4px;
+    margin-top: 3px;
 }
 .slider.slider-horizontal .slider-track{
-    height: 4px;
+    height: 9px;
 }
 .slider.slider-vertical{
-    height: 80px;
+    height: 170px;
     margin-left: 47%;
     float: left;
-    margin-bottom: 12px;
-    margin-top: 8px;
+    margin-bottom: 14px;
+    margin-top: 14px;
 }
 .rightControl .box.box2 .labelA span{
-    font-size: 16px;
+    font-size: 32px;
     font-weight: bold;
     font-style: italic;
     position: relative;
     top: 0px;
 }
+.rightControl .box.box2 .labelA span img{
+    top: 2px;
+    position: relative;
+}
 .rightControl .box.box2 .labelA input{
 
     margin-left:5px;
 
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .rightControl .box.box2 .labelA{
     display: table;
@@ -107,27 +113,27 @@ html{
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
     box-shadow: 2px 2px 4px #898989;
-    margin-top: -8px;
+    margin-top: -13px;
     margin-left: 0px;
 }
 .slider.slider-horizontal{
-    margin: 0px auto 0;
+    margin: 25px auto 20px;
     /* display: table; */
     padding-bottom: 38px;
     float: left;
-    margin-left: 12px;
-    margin-right: 6px;
+    margin-left: 22px;
+    margin-right: 14px;
 }
 .slider.slider-horizontal{
-    width: 147px;
+    width: 287px;
 }
 .rightControl .box.box3 .slider-selection.tick-slider-selection{
     display: none;
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
     background: url("../images/slider.png") no-repeat;
-    width: 16px;
-    height: 16px;
+    /* width: 16px; */
+    /* height: 16px; */
 }
 .rightControl .box.box3{
     position: relative;
@@ -144,10 +150,10 @@ html{
     border-radius: 10px;
 }
 .buttons2{
-    padding-top: 7px;
+    padding-top: 15px;
 }
 .buttons2 a#btnReset img{
-    width: 113px;
+    width: 190px;
 }
 .buttons2 a#btnReset{
     float: none;
@@ -156,7 +162,7 @@ html{
 }
 .buttons2 a{
     float: left;
-    width: 87px;
+    width: 165px;
 }
 .buttons2 a img{
     width: 100%;
@@ -164,7 +170,7 @@ html{
 }
 .buttons2 a.btn2{
     float: right;
-    width: 83px;
+    width: 159px;
     margin-right: 4px;
     margin-top: 1px;
 }
@@ -192,12 +198,13 @@ html{
 }
 .rightControl .box.box3 .f-box{
     display: table;
-    margin: 5px auto 0;
+    margin: 20px auto 0;
     position: relative;
+    padding-bottom: 18px;
 }
 .rightControl .box.box3 .slider.slider-horizontal{
     float: left;
-    width: 75px;
+    width: 145px;
     margin-right: 0px;
 }
 .f-control-2{
@@ -209,25 +216,25 @@ html{
 }
 .tempspan{
     position: absolute;
-    background: url(../images/circle-s2.png) no-repeat;
-    width: 10px;
-    height: 48px;
-    bottom: 7px;
+    background: url(../images/circle-s.png) no-repeat;
+    width: 15px;
+    height: 74px;
+    bottom: 8px;
     left: 50%;
     z-index: 2;
     margin-left: -6px;
 }
 .inputValue{
     color: #ff0000;
-    border: 2px solid #000;
-    width: 50px;
-    font-size: 18px;
-    height: 18px;
+    border: 3px solid #000;
+    width: 86px;
+    font-size: 39px;
+    height: 40px;
     line-height: 22px;
     text-align: center;
     font-weight: bold;
-    margin-top: 65px;
-    margin-left: 7px;
+    margin-top: 138px;
+    margin-left: 19px;
 }
 @-moz-document url-prefix() {
     .inputValue {
@@ -240,16 +247,16 @@ html{
 .rightControl .box.box3 .f-box .slider.slider-horizontal .slider-track{
     border:none;
     box-shadow: 0px 0px 0px 4px #C9CABA;
-    -webkit-box-shadow: 0px 0px 0px 2px #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 4px #C9CABA;
     -moz-box-shadow:0px 0px 0px 4px #C9CABA;
 }
 .rightControl .box.box3 .f-box > .slider.slider-horizontal .slider-handle{
-    margin-left: -14px;
+    margin-left: -19px;
 }
 .slider.slider-vertical .slider-track, .slider.slider-horizontal .slider-track{
     border:none;
     box-shadow: 0px 0px 0px 4px #C9CABA;
-    -webkit-box-shadow: 0px 0px 0px 2px #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 4px #C9CABA;
     -moz-box-shadow:0px 0px 0px 4px #C9CABA;
 }
 .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
@@ -259,16 +266,16 @@ html{
     border-radius: 12px;
 }
 .slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle{
-    margin-left: -7px;
+    margin-left: -11px;
     box-shadow: 2px 2px 4px #898989;
 }
 .slider-handle{
     background: url("../images/slider.png") no-repeat;
-    width: 16px;
-    height: 16px;
+    width: 28px;
+    height: 29px;
 }
 .slider.slider-vertical .slider-track{
-    width: 4px;
+    width: 8px;
 }
 
 body.moveLeft .rightControl{
