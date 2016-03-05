@@ -52,9 +52,9 @@
            <div class="box box2">
                <div class="title"><img src="images/t2.jpg"/></div>
                <div class="labelA">
-                   <span><img src="images/a.png"/> </span> <input id="valueofA" class="inputValue" type="number" min="15" max="200" value="100">
+                   <span><img src="images/a.png"/> </span> <input id="valueofA" class="inputValue" type="number" min="15" max="200" value="100" >
                </div>
-               <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" />
+               <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" data-slider-orientation="horizontal" value="100"/>
                <img src="images/circle-s.png" class="circle-img"/>
                <div class="clear"></div>
            </div>
@@ -108,12 +108,12 @@
 
    </div>
 
-   <script src="lib/underscore.js"></script>
     <script src="lib/fabric.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/bootstrap-slider.js"></script>
-    <script src="lib/main.js"></script>
     <script src="lib/class.SiteMain.js"></script>
+    <script src="lib/main.js"></script>
+    
     <script>
         $(document).ready(function(){
            $('#moveLeft').click(function(){
