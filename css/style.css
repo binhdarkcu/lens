@@ -128,7 +128,7 @@ body{
     margin-right: 14px;
 }
 .slider.slider-horizontal{
-    width: 287px!important;
+    width: 287px;
 }
 .rightControl .box.box3 .slider-selection.tick-slider-selection{
     display: none;
@@ -185,7 +185,6 @@ body{
     z-index: 2;
 }
 .rightControl .box.box3 .f-box > .slider.slider-horizontal {
-    position: relative;
     z-index: 1;
 
 }
@@ -207,7 +206,7 @@ body{
 }
 .rightControl .box.box3 .slider.slider-horizontal{
     float: left;
-    width: 145px!important;
+    width: 145px;
     margin-right: 0px;
 }
 .f-control-2{
