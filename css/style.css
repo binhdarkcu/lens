@@ -34,7 +34,7 @@ html{
 }
 .rightControl .box{
     box-shadow: 3px 3px 0px #595757;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     background: #fff;
 }
 .rightControl .nomralBox{
@@ -291,9 +291,9 @@ body.moveRight .canvas-container-wp{
     float: left;
 }
 #moveLeft{
-    margin-left: -16px;
+    margin-left: 0;
 }
 #moveRight{
     float: right;
-    margin-right: -16px;
+    /* margin-right: -16px; */
 }
