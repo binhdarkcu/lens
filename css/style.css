@@ -138,9 +138,7 @@ body{
     /* width: 16px; */
     /* height: 16px; */
 }
-.rightControl .box.box3{
-    position: relative;
-}
+.rightControl .box.box3{/* position: relative; */}
 .slideStamp{
     background: #595757;
     position: absolute;
@@ -201,8 +199,8 @@ body{
 .rightControl .box.box3 .f-box{
     display: table;
     margin: 12px auto 0;
-    position: relative;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
+    /* position: relative; */
 }
 .rightControl .box.box3 .slider.slider-horizontal{
     float: left;
@@ -217,11 +215,11 @@ body{
 
 }
 .tempspan{
-    position: absolute;
+    position: relative;
     background: url(../images/circle-s.png) no-repeat;
     width: 15px;
     height: 74px;
-    bottom: 19px;
+    bottom: 5px;
     left: 50%;
     z-index: 2;
     margin-left: -6px;
