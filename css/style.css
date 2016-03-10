@@ -233,7 +233,7 @@ body{background: #D3D3D4;margin: 0;}
     bottom: 5px;
     left: 50%;
     z-index: 2;
-    margin-left: -6px;
+    margin-left: -5px;
 }
 .inputValue{
     color: #ff0000;
