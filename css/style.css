@@ -35,7 +35,7 @@ body{background: #D3D3D4;margin: 0;}
 }
 .rightControl .box{
     box-shadow: 3px 3px 0px #595757;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     background: #fff;
 }
 .rightControl .nomralBox{
@@ -47,7 +47,7 @@ body{background: #D3D3D4;margin: 0;}
     margin-top: 15px;
 }
 .rightControl .nomralBox .vl1{
-    margin-top: 18px;
+    margin-top: 14px;
     float: left;
     margin-bottom: 13px;
     width: 100%;
@@ -87,8 +87,8 @@ body{background: #D3D3D4;margin: 0;}
     height: 170px;
     margin-left: 47%;
     float: left;
-    margin-bottom: 14px;
-    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .rightControl .box.box2 .labelA span{
     font-size: 32px;
@@ -148,7 +148,7 @@ body{background: #D3D3D4;margin: 0;}
     border-radius: 10px;
 }
 .buttons2{
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .buttons2 a#btnReset img{
     width: 190px;
@@ -187,6 +187,9 @@ body{background: #D3D3D4;margin: 0;}
     margin: 5px auto 10px;
     float: none;
     z-index: 2;
+}
+.rightControl .box.box1 .slider.slider-vertical .slider-handle{
+    margin-left: -11px!important;
 }
 .rightControl .box.box3 .f-box > .slider.slider-horizontal {
     z-index: 1;
@@ -301,7 +304,7 @@ body{background: #D3D3D4;margin: 0;}
 }
 .chagneview{
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     width: 1801px;
     left: auto;
 }
