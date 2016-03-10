@@ -204,7 +204,7 @@ body{background: #D3D3D4;margin: 0;}
     z-index: 0;
 }
 .rightControl .box.box2 .slider.slider-horizontal .slider-handle{
-    /* margin-left: 0; */
+    margin-left: 0; 
     position: relative;
 }
 .rightControl .box.box3 .f-box{
