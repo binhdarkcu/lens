@@ -158,6 +158,15 @@ body{background: #D3D3D4;margin: 0;}
     display: table;
     margin: 5px auto;
 }
+#btnReset img.hover{
+    display: none;
+}
+#btnReset:hover img.normal{
+    display: none;
+}
+#btnReset:hover img.hover{
+    display: block;
+}
 .buttons2 a{
     float: left;
     width: 165px;
@@ -282,12 +291,13 @@ body{background: #D3D3D4;margin: 0;}
 .canvas-container-wp {
     text-align: center;
     background: #EFEFEF;
+    padding-right: 2px;
 }
 .canvas-container{
     background: #fff;
     margin-top: 30px;
     box-shadow: 3px 3px 0px #595757;
-        margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 .chagneview{
     position: absolute;
