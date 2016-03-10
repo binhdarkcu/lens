@@ -1,13 +1,12 @@
 html{
     background: #d3d3d4;
+    position: relative;
 }
-body{
-}
+body{background: #D3D3D4;margin: 0;}
 .hide{
     display:none;
 }
 .canvas-container-wp{
-    border: 2px solid #000;
     background:#fff;
 }
 
@@ -115,7 +114,7 @@ body{
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
     box-shadow: 2px 2px 4px #898989;
     margin-top: -13px;
-    margin-left: -8px;
+    margin-left: -6px;
 }
 .slider.slider-horizontal{
     margin: 15px auto 10px;
@@ -192,7 +191,9 @@ body{
     position: relative;
     z-index: 0;
 }
-.rightControl .box.box3 .slider.slider-horizontal .slider-handle{
+.rightControl .box.box2 .slider.slider-horizontal .slider-handle{
+    /* margin-left: 0; */
+    position: relative;
 }
 .rightControl .box.box3 .f-box{
     display: table;
@@ -257,6 +258,9 @@ body{
     -webkit-box-shadow: 0px 0px 0px 4px #C9CABA;
     -moz-box-shadow:0px 0px 0px 4px #C9CABA;
 }
+.slider.slider-horizontal .slider-track{
+    width: 100%;
+}
 .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
 
 }
@@ -275,7 +279,22 @@ body{
 .slider.slider-vertical .slider-track{
     width: 8px;
 }
-
+.canvas-container-wp {
+    text-align: center;
+    background: #EFEFEF;
+}
+.canvas-container{
+    background: #fff;
+    margin-top: 30px;
+    box-shadow: 3px 3px 0px #595757;
+        margin-bottom: 32px;
+}
+.chagneview{
+    position: absolute;
+    bottom: 0;
+    width: 1801px;
+    left: auto;
+}
 body.moveLeft .rightControl{
     float: left;
 }
@@ -289,7 +308,7 @@ body.moveRight .canvas-container-wp{
     float: left;
 }
 #moveLeft{
-    margin-left: 0;
+    margin-left: -31px;
 }
 #moveRight{
     float: right;
