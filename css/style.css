@@ -192,7 +192,7 @@ margin-top: 10px;
     z-index: 2;
 }
 .rightControl .box.box1 .slider.slider-vertical .slider-handle{
-    margin-left: -11px!important;
+    margin-left: -10px!important;
 }
 .rightControl .box.box3 .f-box > .slider.slider-horizontal {
     z-index: 1;
@@ -329,7 +329,7 @@ border-radius: 12px;
 }
 .slider-handle{
     background: url("../images/slider.png") no-repeat;
-    width: 28px;
+    width: 27px;
     height: 29px;
 }
 .slider.slider-vertical .slider-track{
