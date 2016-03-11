@@ -22,9 +22,13 @@
    }
 
 </style>
-
+<script src="lib/fabric.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/bootstrap-slider.js"></script>
+    <script src="lib/class.SiteMain.js"></script>
+    <script src="lib/main.js"></script>
 </head>
-<body id="body">
+<body id="body" onload="main.loadScript();">
    <div class="container">
        <img style="display: none;" src="images/candles.png" id="candle01"/>
        <div id="main-cavas" class="canvas-container-wp" width="1400" height="1000">
@@ -114,11 +118,7 @@
 
    </div>
 
-    <script src="lib/fabric.js"></script>
-    <script src="lib/angular.min.js"></script>
-    <script src="lib/bootstrap-slider.js"></script>
-    <script src="lib/class.SiteMain.js"></script>
-    <script src="lib/main.js"></script>
+    
     
     <script>
         $(document).ready(function(){
