@@ -1,6 +1,7 @@
 html{
     background: #d3d3d4;
     position: relative;
+
 }
 body{background: #D3D3D4;margin: 0;}
 .hide{
@@ -37,6 +38,7 @@ body{background: #D3D3D4;margin: 0;}
 .rightControl .box{
     box-shadow: 3px 3px 0px #595757;
     margin-bottom: 20px;
+    -ms-touch-action: none;
     background: #fff;
 }
 .rightControl .nomralBox{
@@ -107,7 +109,7 @@ body{background: #D3D3D4;margin: 0;}
 
 margin-left:5px;
 
-margin-top: 10px;
+margin-top: 15px;
 }
 .rightControl .box.box2 .labelA{
     display: table;
@@ -348,10 +350,12 @@ border-radius: 12px;
     margin-bottom: 32px;
 }
 .chagneview{
-    position: absolute;
-    bottom: 2px;
-    width: 1832px;
+    /* top: -20px; */
+    width: 1432px;
     left: auto;
+    /* display: block; */
+    bottom: 0;
+    background: #EFEFEF;
 }
 .relative{
     position: relative;
@@ -368,11 +372,16 @@ body.moveRight .rightControl{
 body.moveRight .canvas-container-wp{
     float: left;
 }
-#moveLeft{
+.moveLeft .chagneview{
+    width: 1417px;
+    float: right;
+}
+.moveLeft #main-cavas{
+    margin-right: 15px;
 }
 #moveRight{
     float: right;
-    /* margin-right: -16px; */
+    margin-right: -16px;
 }
 .rightControl .box.box1 .inputValue{
     top:-7px;
