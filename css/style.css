@@ -13,15 +13,19 @@ body{background: #fff;margin: 0;}
 
 .container{
     margin: 0 auto;
-    width: 1835px;
+    width: 1855px;
 }
 .canvas-container-wp{
     float: left;
 }
 .rightControl{
-    float: right;
+    float: left;
     width: 350px;
-    margin-top: 30px;
+    padding-top: 30px;
+    background: #d3d3d3;
+    padding-left: 18px;
+    padding-bottom: 21px;
+    padding-right: 25px;
 }
 .rightControl .box .title{
     width: 348px;
@@ -381,7 +385,7 @@ body.moveRight .canvas-container-wp{
     float: right;
 }
 .moveLeft #main-cavas{
-    margin-right: 25px;
+    margin-right: 30px;
 }
 #moveRight{
     /* float: right; */
@@ -395,7 +399,7 @@ body.moveRight .canvas-container-wp{
     margin-left: 30px;
     height: 1064px;
     width: 30px;
-    background: #EFEFEF;
+    background: #d3d3d3;
 }
 .changeview.right{
     float: right;
@@ -416,4 +420,7 @@ body.moveRight .canvas-container-wp{
 }
 .changeview.left{
 
+}
+.moveLeft .canvas-container-wp{
+    /* padding-right: 7px; */
 }
