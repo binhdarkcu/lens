@@ -32,6 +32,9 @@
 <body id="body" onload="main.loadScript();">
    <div class="container">
        <img style="display: none;" src="images/candles.png" id="candle01"/>
+       <div class="changeview left">
+          <a href="javascript:void(0);" id="moveLeft"><img src="images/left.png"/> </a>
+       </div>
        <div id="main-cavas" class="canvas-container-wp" width="1400" height="1000">
            <canvas id="c" width="1400" height="1000"></canvas>
            <img class="hide" src="images/circle.png" id="len-img">
@@ -41,6 +44,10 @@
            <img class="hide" src="images/candles-2.png" id="f15-big-img">
             <img class="hide" src="images/candles-2.png" id="f15-img">
           <img class="hide" src="images/candles.png" id="big-img">
+          <div class="changeview right" style=" clear: both;display: none;">
+           
+           <a href="javascript:void(0);"  id="moveRight"><img src="images/right.png"/> </a>
+       </div>
        </div>
 
 
@@ -50,7 +57,7 @@
                <div class="title"><img src="images/t1.jpg"/></div>
 
                <input id="len-control" type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-orientation="vertical"/>
-               <input id="len-value" class="inputValue" type="number" min="1" max="100" value="50">
+               <input id="len-value" class="inputValue" type="text" min="1" max="100" value="50">
                <div class="relative"><div class="lentemp"></div></div>
                <div class="clear"></div>
            </div>
@@ -58,7 +65,7 @@
            <div class="box box2 box2dif">
                <div class="title"><img src="images/t2.jpg"/></div>
                <div class="labelA">
-                   <span><img src="images/a.png"/> </span> <input id="valueofA" class="inputValue" type="number" min="15" max="200" value="100" >
+                   <span><img src="images/a.png"/> </span> <input id="valueofA" class="inputValue" type="text" min="15" max="200" value="100" >
                </div>
                <input id="aValue" type="text" data-slider-min="15" data-slider-max="200" data-slider-step="1" data-slider-value="100" data-slider-orientation="horizontal" value="100"/>
                <div class="relative"><div class="atemp"></div></div>
@@ -69,7 +76,7 @@
            <div class="box box2 box3">
                <div class="title"><img src="images/t3.jpg"/></div>
                <div class="labelA">
-                   <span><img src="images/f.png"/> </span> <input id="valueofF" class="inputValue" type="number" min="15" max="100" value="50">
+                   <span><img src="images/f.png"/> </span> <input id="valueofF" class="inputValue" type="text" min="15" max="100" value="50">
                </div>
                <div class="f-box">
                    <input id="f-control" type="text"  data-slider-min="15" data-slider-max="100" data-slider-step="1" data-slider-value="50" value="50"/>
@@ -112,10 +119,9 @@
                </div>
            </div>
        </div>
-       <div class="chagneview" style=" clear: both;">
-           <a href="javascript:void(0);" id="moveLeft"><img src="images/left.png"/> </a>
-           <a href="javascript:void(0);" style="display: none;" id="moveRight"><img src="images/right.png"/> </a>
-       </div>
+       
+       
+       
 
    </div>
 
@@ -125,13 +131,13 @@
         $(document).ready(function(){
            $('#moveLeft').click(function(){
                $('body').addClass('moveLeft').removeClass('moveRight');
-               $(this).hide();
-               $('#moveRight').show();
+               $(this).parent().hide();
+               $('.changeview.right').show();
            });
             $('#moveRight').click(function(){
                 $('body').addClass('moveRight').removeClass('moveLeft');
-                $(this).hide();
-                $('#moveLeft').show();
+                $(this).parent().hide();
+                $('.changeview.left').show();
             });
         });
     </script>

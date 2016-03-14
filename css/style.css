@@ -1,9 +1,9 @@
 html{
-    background: #d3d3d4;
+    background: #fff;
     position: relative;
 
 }
-body{background: #D3D3D4;margin: 0;}
+body{background: #fff;margin: 0;}
 .hide{
     display:none;
 }
@@ -13,7 +13,7 @@ body{background: #D3D3D4;margin: 0;}
 
 .container{
     margin: 0 auto;
-    width: 1802px;
+    width: 1835px;
 }
 .canvas-container-wp{
     float: left;
@@ -82,7 +82,7 @@ body{background: #D3D3D4;margin: 0;}
 .rightControl .circle-img{
     width: 15px;
     float: left;
-        margin-left: 4px;
+    margin-left: -9px;
 }
 .slider.slider-horizontal .slider-track{
     height: 9px;
@@ -276,7 +276,8 @@ margin-top: 15px;
 
 }
 .box2dif .slider.slider-horizontal{
-    width: 260px;
+    width: 262px;
+    margin-left: 30px;
 }
 .slider-track{
     border-radius: 12px;
@@ -327,11 +328,11 @@ border-radius: 12px;
     -moz-box-shadow:0px 0px 0px 4px #C9CABA;
     background: #595757;
     height: 8px;
-    width: 275px;
+    width: 280px;
     border-radius: 12px;
     bottom: -47px;
     position: absolute;
-    left: 25px;
+    left: 32px;
 }
 .slider-handle{
     background: url("../images/slider.png") no-repeat;
@@ -345,7 +346,6 @@ border-radius: 12px;
     text-align: center;
     background: #EFEFEF;
     padding-right: 2px;
-    margin-left: 30px;
 }
 .canvas-container{
     background: #fff;
@@ -381,12 +381,39 @@ body.moveRight .canvas-container-wp{
     float: right;
 }
 .moveLeft #main-cavas{
-    margin-right: 15px;
+    margin-right: 25px;
 }
 #moveRight{
-    float: right;
-    margin-right: -16px;
+    /* float: right; */
+    /* margin-right: -16px; */
 }
 .rightControl .box.box1 .inputValue{
     top:-7px;
+}
+.changeview{
+    float: left;
+    margin-left: 30px;
+    height: 1064px;
+    width: 30px;
+    background: #EFEFEF;
+}
+.changeview.right{
+    float: right;
+    display: none;
+    margin-left: 0;
+}
+.changeview a{
+    display: block;
+    vertical-align: middle;
+    height: 100%;
+    position: relative;
+}
+.changeview a img{
+    display: table-cell;
+    position: absolute;
+    bottom: 0;
+    margin-top: -11px;
+}
+.changeview.left{
+
 }
