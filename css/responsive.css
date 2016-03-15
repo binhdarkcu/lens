@@ -58,6 +58,9 @@
     .moveLeft #main-cavas{
         margin-right: 0;
     }
+    .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
+        left: 9px;
+    }
 }
 
 
