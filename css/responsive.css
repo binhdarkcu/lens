@@ -67,9 +67,9 @@
         height: 800px!important;
     }
     .rightControl{
-        width: 205px;
+        width: 221px;
         padding-left: 12px;
-        padding-right: 24px;
+        padding-right: 15px;
     }
     .changeview{
         margin-left: 0;
@@ -77,10 +77,10 @@
         width: 24px;
     }
     .rightControl .box .title{
-            width: 204px;
+            width: 219px;
     }
     .lentemp{
-        left: 93px;
+        left: 101px;
         height: 143px;
         bottom: 9px;
     }
@@ -107,34 +107,34 @@
         width: 171px;
     }
     .rightControl .nomralBox .vl1 span{
-            width: 135px;
+            width: 151px;
     }
     .buttons2 a{
-            width: 90px;
+            width: 105px;
     }
     .buttons2 a.btn2{
-            width: 98px;
+            width: 107px;
     }
     .rightControl .box{
         margin-bottom: 12px;
     }
     .rightControl .nomralBox .vl1{
-        margin-top: 3px;
-        margin-bottom: 3px;
+        margin-top: 9px;
+        margin-bottom: 9px;
     }
     .slider.slider-vertical{
-    margin-left: 42%;
+    margin-left: 43%;
     height: 119px;
 }
     .inputValue{
         width: 65px;
-        font-size: 33px;
-        height: 37px;
+        font-size: 26px;
+        height: 30px;
         margin-left: 12px;
         margin-top: 120px;
     }
     .rightControl .box.box2 .labelA span{
-        width: 45px;
+        width: 34px;
         display: inline-block;
     }
     .rightControl .box.box2 .labelA span img{
@@ -142,10 +142,11 @@
     }
     .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
         left: 14px;
-        width: 55px;
+        width: 58px;
     }
     .rightControl .circle-img{
             margin-top: -7px;
+            margin-left: -16px;
     }
     .rightControl .box.box2 .labelA input{
         margin-top: 9px;
@@ -161,6 +162,10 @@
     }
     .buttons2{min-height: 44px;}
     .buttons2 a#btnReset img{
-        width: 120px;
+        width: 138px;
     }
+    .changeview a img{
+        width: 100%;
+    }
+    .rightControl .nomralBox .vl1 .inputValue{}
 }
