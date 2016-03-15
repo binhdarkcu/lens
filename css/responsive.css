@@ -55,6 +55,9 @@
         margin-top: 8px;
     margin-bottom: 8px;
     }
+    .moveLeft #main-cavas{
+        margin-right: 0;
+    }
 }
 
 
