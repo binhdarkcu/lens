@@ -168,4 +168,7 @@
         width: 100%;
     }
     .rightControl .nomralBox .vl1 .inputValue{}
+    .moveLeft #main-cavas{
+        margin-right: 0;
+    }
 }
