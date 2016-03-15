@@ -1,9 +1,10 @@
 html{
     background: #fff;
     position: relative;
-
+    width: 100%;
+    height: 100%;
 }
-body{background: #fff;margin: 0;}
+body{background: #fff;margin: 0;width: 100%;height: 100%;}
 .hide{
     display:none;
 }
@@ -24,7 +25,7 @@ body{background: #fff;margin: 0;}
     padding-top: 30px;
     background: #d3d3d3;
     padding-left: 18px;
-    padding-bottom: 21px;
+    padding-bottom: 24px;
     padding-right: 25px;
 }
 .rightControl .box .title{
@@ -86,7 +87,7 @@ body{background: #fff;margin: 0;}
 .rightControl .circle-img{
     width: 15px;
     float: left;
-    margin-left: -9px;
+    margin-left: -18px;
 }
 .slider.slider-horizontal .slider-track{
     height: 9px;
@@ -159,6 +160,7 @@ margin-top: 15px;
 }
 .buttons2{
     padding-top: 12px;
+    min-height: 59px;
 }
 .buttons2 a#btnReset img{
     width: 190px;
@@ -208,13 +210,14 @@ margin-top: 15px;
 .rightControl .box.box3 .f-box .slider.slider-horizontal{
     padding-bottom: 35px;
     margin-bottom: 4px;
+    left: -7px;
 }
 .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
     position: relative;
     z-index: 1;
 }
 .rightControl .box.box2 .slider.slider-horizontal .slider-handle{
-    margin-left: -2px;
+    margin-left: -12px;
     position: relative;
 }
 .rightControl .box.box3 .f-box{
@@ -268,7 +271,7 @@ margin-top: 15px;
 
 
 .rightControl .box.box3 .f-box > .slider.slider-horizontal .slider-handle{
-    margin-left: -19px;
+    margin-left: -12px;
 }
 .slider.slider-vertical .slider-track, .slider.slider-horizontal .slider-track{
     
@@ -276,12 +279,10 @@ margin-top: 15px;
 .slider.slider-horizontal .slider-track{
     width: 100%;
 }
-.rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
-
-}
+.rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{left: 10px;}
 .box2dif .slider.slider-horizontal{
     width: 262px;
-    margin-left: 30px;
+    margin-left: 33px;
 }
 .slider-track{
     border-radius: 12px;
@@ -336,7 +337,7 @@ border-radius: 12px;
     border-radius: 12px;
     bottom: -47px;
     position: absolute;
-    left: 32px;
+    left: 27px;
 }
 .slider-handle{
     background: url("../images/slider.png") no-repeat;
@@ -355,7 +356,7 @@ border-radius: 12px;
     background: #fff;
     margin-top: 30px;
     box-shadow: 3px 3px 0px #595757;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 .chagneview{
     /* top: -20px; */

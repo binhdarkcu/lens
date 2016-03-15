@@ -1,0 +1,171 @@
+@media only screen and (min-width: 1400px) and (max-width: 1855px) {
+    .container{
+        width: 1400px;
+    }
+    #c, canvas.upper-canvas, .canvas-container{
+        width: 1000px!important;
+        height: 950px!important;
+    }
+    .rightControl{
+        width: 300px;
+    }
+    .changeview{
+        margin-left: 0;
+        height: 1005px;
+    }
+    .rightControl .box .title{
+            width: 299px;
+    }
+    .lentemp{
+        left: 148px;
+    }
+    .atemp{
+            width: 243px;
+    }
+    .box2dif .slider.slider-horizontal{
+            width: 225px;
+            margin-bottom: 5px;
+    }
+    .f-control-2{
+        margin-left: 22px;
+    }
+    .rightControl .box.box3 .slider.slider-horizontal{
+        width: 98px;
+        margin-right: 0px;
+    }
+    .rightControl .box.box3 .f-box .slider.slider-horizontal{
+        left:-8px;
+    }
+    .rightControl .box.box3 .ftemp{
+        width: 255px;
+    }
+    .rightControl .nomralBox .vl1 span{
+            width: 175px;
+    }
+    .buttons2 a{
+            width: 133px;
+    }
+    .buttons2 a.btn2{
+            width: 145px;
+    }
+    .rightControl .box{
+        margin-bottom: 18px;
+    }
+    .rightControl .nomralBox .vl1{
+        margin-top: 8px;
+    margin-bottom: 8px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    .container{
+        width: 1024px;
+    }
+    #c, canvas.upper-canvas, .canvas-container{
+        width: 750px!important;
+        height: 800px!important;
+    }
+    .rightControl{
+        width: 221px;
+        padding-left: 12px;
+        padding-right: 15px;
+    }
+    .changeview{
+        margin-left: 0;
+        height: 860px;
+        width: 24px;
+    }
+    .rightControl .box .title{
+            width: 219px;
+    }
+    .lentemp{
+        left: 101px;
+        height: 143px;
+        bottom: 9px;
+    }
+    .atemp{
+            width: 150px;
+            bottom: -42px;
+    }
+    .box2dif .slider.slider-horizontal{
+            width: 130px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+    }
+    .f-control-2{
+        margin-left: 22px;
+    }
+    .rightControl .box.box3 .slider.slider-horizontal{
+        width: 49px;
+        margin-right: 0px;
+    }
+    .rightControl .box.box3 .f-box .slider.slider-horizontal{
+        left: -7px;
+    }
+    .rightControl .box.box3 .ftemp{
+        width: 171px;
+    }
+    .rightControl .nomralBox .vl1 span{
+            width: 151px;
+    }
+    .buttons2 a{
+            width: 105px;
+    }
+    .buttons2 a.btn2{
+            width: 107px;
+    }
+    .rightControl .box{
+        margin-bottom: 12px;
+    }
+    .rightControl .nomralBox .vl1{
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+    .slider.slider-vertical{
+    margin-left: 43%;
+    height: 119px;
+}
+    .inputValue{
+        width: 65px;
+        font-size: 26px;
+        height: 30px;
+        margin-left: 12px;
+        margin-top: 120px;
+    }
+    .rightControl .box.box2 .labelA span{
+        width: 34px;
+        display: inline-block;
+    }
+    .rightControl .box.box2 .labelA span img{
+        width: 100%;
+    }
+    .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
+        left: 14px;
+        width: 58px;
+    }
+    .rightControl .circle-img{
+            margin-top: -7px;
+            margin-left: -16px;
+    }
+    .rightControl .box.box2 .labelA input{
+        margin-top: 9px;
+    }
+    .rightControl .box.box3 .f-box{
+            padding-bottom: 7px;
+    }
+    .rightControl .nomralBox .inputValue{
+    width: 63px;
+    }
+    .rightControl .nomralBox .vl1.vl2{
+        margin-right: 3px;
+    }
+    .buttons2{min-height: 44px;}
+    .buttons2 a#btnReset img{
+        width: 138px;
+    }
+    .changeview a img{
+        width: 100%;
+    }
+    .rightControl .nomralBox .vl1 .inputValue{}
+}
