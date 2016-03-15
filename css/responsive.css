@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1400px) and (max-width: 1855px) {
+    .container{
+        width: 1400px;
+    }
+    #c, canvas.upper-canvas, .canvas-container{
+        width: 1000px!important;
+        height: 950px!important;
+    }
+    .rightControl{
+        width: 300px;
+    }
+    .changeview{
+        margin-left: 0;
+        height: 1005px;
+    }
+    .rightControl .box .title{
+            width: 299px;
+    }
+    .lentemp{
+        left: 148px;
+    }
+    .atemp{
+            width: 243px;
+    }
+    .box2dif .slider.slider-horizontal{
+            width: 225px;
+            margin-bottom: 5px;
+    }
+    .f-control-2{
+        margin-left: 22px;
+    }
+    .rightControl .box.box3 .slider.slider-horizontal{
+        width: 98px;
+        margin-right: 0px;
+    }
+    .rightControl .box.box3 .f-box .slider.slider-horizontal{
+        left:-8px;
+    }
+    .rightControl .box.box3 .ftemp{
+        width: 255px;
+    }
+    .rightControl .nomralBox .vl1 span{
+            width: 175px;
+    }
+    .buttons2 a{
+            width: 133px;
+    }
+    .buttons2 a.btn2{
+            width: 145px;
+    }
+    .rightControl .box{
+        margin-bottom: 18px;
+    }
+    .rightControl .nomralBox .vl1{
+        margin-top: 8px;
+    margin-bottom: 8px;
+    }
+}
