@@ -1,0 +1,204 @@
+.container{
+	width: 142.692em;
+}
+#c, canvas.upper-canvas, .canvas-container{
+	width: 107.692em!important;
+	height: 76.923em!important;
+}
+.canvas-container{
+	margin-top: 2.308em;
+	box-shadow: 0.231em 0.231em 0 #595757;
+	margin-bottom: 2.154em;
+}
+.changeview{
+	height: 81.846em;
+	width: 2.308em;
+	margin-left: 0;
+}
+.changeview a img{
+	width: 100%;
+}
+.rightControl{
+	width: 26.923em;
+	padding-top: 2.308em;
+	padding-left: 1.385em;
+	    padding-bottom: 1.846em;
+    padding-right: 1.923em;
+}
+.rightControl .box .title{
+	width: 26.769em;
+}
+.slider.slider-vertical{
+	height: 10.692em;
+	margin-bottom: 2.077em;
+	margin-top:1.923em;
+}
+.rightControl .box.box1 .inputValue{
+	top: -0.279em;
+}
+.inputValue{
+	width: 2.205em;
+	height: 1.026em;
+	margin-top: 3.538em;
+	margin-left: 0.487em;
+	line-height: 1;
+	    font-size: 3.000em;
+}
+.rightControl .box.box1 .slider.slider-vertical .slider-handle{
+    margin-left: -0.969em;
+    box-shadow: 0.154em 0.154em 0.308em #898989;
+}
+.slider.slider-vertical .slider-handle{
+	margin-top: -0.854em;
+}
+.slider-handle{
+	    width: 2.077em;
+    height: 2.231em;
+    background-size: contain;
+}
+.lentemp
+{
+	box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    width: 0.615em;
+    height: 12.308em;
+    bottom: 0.846em;
+    left: 13.077em;
+    border-radius: 0.923em;
+}
+.box2dif .slider.slider-horizontal{
+	width: 20.154em;
+	margin-left: 2.538em;
+}
+.slider.slider-horizontal{
+	    margin: 1.154em auto 0.769em;
+	        padding-bottom: 2.923em;
+	            margin-right: 2.692em;
+	                height: 1.615em;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+	background-size: contain;
+	box-shadow: 0.154em 0.154em 0.308em #898989;
+    margin-top: -1.000em;
+}
+.rightControl .circle-img{
+	width: 1.154em;
+	margin-left: -1.385em;
+}
+.atemp{
+	    box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    background: #595757;
+    height: 0.615em;
+    width: 21.538em;
+    border-radius: 0.923em;
+    bottom: -3.615em;
+    left: 2.077em;
+}
+.rightControl .box.box2 .slider.slider-horizontal .slider-handle{
+	margin-left: -0.923em;
+}
+.rightControl .box.box2 .labelA span{
+
+}
+.rightControl .box.box2 .labelA span img{
+top: 0.154em;
+width: 4.077em;
+}
+.rightControl .box.box3 .labelA span img{
+    top: 0.6em;
+}
+.rightControl .box.box3 .f-box .slider.slider-horizontal{
+	    padding-bottom: 2.692em;
+    margin-bottom: 0.308em;
+    left: -0.538em;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+	    width: 8.846em;
+    margin-right: 0.231em;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+	    margin: 0.385em auto 0.769em;
+}
+.tempspan{
+	background-size: contain;
+	width: 1.154em;
+	height: 5.692em;
+	bottom: 0.385em;
+	margin-left: -0.25em;
+}
+.rightControl .box.box3 .ftemp{
+	box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    background: #595757;
+    height: 0.615em;
+    border-radius: 0.923em;
+    width: 22.308em;
+    bottom: -2.615em;
+    left: -1.154em;
+}
+.rightControl .box.box3 .f-box > .slider.slider-horizontal .slider-handle{
+	    margin-left: -0.923em;
+}
+.rightControl .box.box3 .f-box .f-control-2 .slider.slider-horizontal{
+
+left: 1em;
+}
+.f-control-2{
+	margin-left: 1.615em;
+}
+.rightControl .nomralBox .vl1{
+	margin-top: 1.000em;
+    margin-bottom: 0.923em;
+}
+.rightControl .nomralBox .vl1.vl2{
+	    margin-right: 0.692em;
+    margin-top: 0.769em;
+}
+.rightControl .nomralBox .vl1 span{
+	    width: 17.000em;
+    margin-top: 1.154em;
+}
+.rightControl .nomralBox .inputValue{
+	margin-left: 0.103em;
+    width: 3.028em;
+}
+.rightControl .nomralBox .vl1.vl2 span{
+	width: 3.615em;
+}
+.rightControl .box{
+	box-shadow: 0.231em 0.231em 0px #595757;
+    margin-bottom: 1.538em;
+}
+.buttons2 a{
+	    width: 12.692em;
+}
+.buttons2 a.btn2{
+	width: 12.231em;
+    margin-right: 0.308em;
+    margin-top: 0.077em;
+}
+.buttons2{
+	    padding-top: 0.923em;
+    min-height: 4.538em;
+}
+.rightControl .box.box3 .f-box{
+	    margin: 0.769em auto 0;
+	    padding-bottom: 0.223em;
+}
+.rightControl .box.box2 .labelA input{
+	margin-left: 0.128em;
+    margin-top: 0.385em;
+}
+.buttons2 a#btnReset{
+	    margin: 0.128em auto;
+}
+.buttons2 a#btnReset img{
+	    width: 15.872em;
+}
+.inputValue{
+	border: 0.077em solid #000;
+}
