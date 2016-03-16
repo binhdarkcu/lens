@@ -55,6 +55,12 @@
         margin-top: 8px;
     margin-bottom: 8px;
     }
+    .moveLeft #main-cavas{
+        margin-right: 0;
+    }
+    .rightControl .box.box3 .f-control-2 > .slider.slider-horizontal{
+        left: 9px;
+    }
 }
 
 
@@ -168,4 +174,7 @@
         width: 100%;
     }
     .rightControl .nomralBox .vl1 .inputValue{}
+    .moveLeft #main-cavas{
+        margin-right: 0;
+    }
 }
