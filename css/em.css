@@ -2,7 +2,6 @@ body{
 	overflow-y: hidden;
 }
 .rightControl{
-	position: relative;
 	z-index: 2;
 }
 .bggray{
@@ -42,7 +41,7 @@ body{
 	width: 26.923em;
 	padding-top: 2.308em;
 	padding-left: 1.385em;
-	padding-bottom: 1.846em;
+	padding-bottom: 2.3em;
 	padding-right: 1.923em;
 }
 .rightControl .box .title{
