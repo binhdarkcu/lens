@@ -200,6 +200,9 @@ left: 1em;
 	box-shadow: 0.231em 0.231em 0px #595757;
     margin-bottom: 1.538em;
 }
+body.moveRight .rightControl{
+	float: left;
+}
 .buttons2 a{
 	    width: 11.692em;
 }
