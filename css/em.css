@@ -80,8 +80,8 @@ body{
 }
 .slider-handle{
 	    width: 2.077em;
-    height: 2.231em;
-    background-size: contain;
+	    height: 2.231em;
+	    background-size: cover;
 }
 .lentemp
 {
@@ -90,7 +90,7 @@ body{
 	-moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
 	width: 0.615em;
 	height: 11.08em;
-	bottom: 0.346em;
+	bottom: -0.5em;
 	left: 13.077em;
 	border-radius: 0.923em;
 }
@@ -105,9 +105,9 @@ body{
 	                height: 1.615em;
 }
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
-	background-size: contain;
+	background-size: cover;
 	box-shadow: 0.154em 0.154em 0.308em #898989;
-    margin-top: -1.000em;
+	margin-top: -1.000em;
 }
 .rightControl .circle-img{
 	width: 1.154em;
