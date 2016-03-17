@@ -1,9 +1,25 @@
+body{
+	overflow-y: hidden;
+}
+.rightControl{
+	position: relative;
+	z-index: 2;
+}
+.bggray{
+	position: absolute;
+	width: 30.48em;
+	height: 100%;
+	right: 2em;
+	background: #d3d3d3;
+	z-index: 0;
+}
 .container{
 	width: 142.692em;
+	position: relative;
 }
 #c, canvas.upper-canvas, .canvas-container{
 	width: 107.692em!important;
-	height: 76.923em!important;
+	height: 74.923em!important;
 }
 .canvas-container{
 	margin-top: 2.308em;
@@ -11,9 +27,13 @@
 	margin-bottom: 2.154em;
 }
 .changeview{
-	height: 81.846em;
+	height: 79.346em;
 	width: 2.308em;
 	margin-left: 0;
+}
+.slider.slider-horizontal .slider-track{
+	height: 0.692em;
+	margin-top: -0.385em;
 }
 .changeview a img{
 	width: 100%;
@@ -22,16 +42,25 @@
 	width: 26.923em;
 	padding-top: 2.308em;
 	padding-left: 1.385em;
-	    padding-bottom: 1.846em;
-    padding-right: 1.923em;
+	padding-bottom: 1.846em;
+	padding-right: 1.923em;
 }
 .rightControl .box .title{
 	width: 26.769em;
 }
+.slider-track{
+	    border-radius: 0.923em;
+}
+.slider.slider-vertical .slider-track{
+	width: 0.615em;
+	margin-left: -0.385em;
+}
 .slider.slider-vertical{
-	height: 10.692em;
-	margin-bottom: 2.077em;
-	margin-top:1.923em;
+	height: 9.2092em;
+	margin-bottom: 2.477em;
+	margin-top: 1.923em;
+	margin-left: 12.9em;
+	width: 1.538em;
 }
 .rightControl .box.box1 .inputValue{
 	top: -0.279em;
@@ -39,10 +68,10 @@
 .inputValue{
 	width: 2.205em;
 	height: 1.026em;
-	margin-top: 3.538em;
+	margin-top: 3.038em;
 	margin-left: 0.487em;
 	line-height: 1;
-	    font-size: 3.000em;
+	font-size: 3.000em;
 }
 .rightControl .box.box1 .slider.slider-vertical .slider-handle{
     margin-left: -0.969em;
@@ -59,13 +88,13 @@
 .lentemp
 {
 	box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    width: 0.615em;
-    height: 12.308em;
-    bottom: 0.846em;
-    left: 13.077em;
-    border-radius: 0.923em;
+	-webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	-moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	width: 0.615em;
+	height: 11.08em;
+	bottom: 0.346em;
+	left: 13.077em;
+	border-radius: 0.923em;
 }
 .box2dif .slider.slider-horizontal{
 	width: 20.154em;
@@ -174,16 +203,16 @@ left: 1em;
     margin-bottom: 1.538em;
 }
 .buttons2 a{
-	    width: 12.692em;
+	    width: 11.692em;
 }
 .buttons2 a.btn2{
-	width: 12.231em;
-    margin-right: 0.308em;
-    margin-top: 0.077em;
+	width: 12.031em;
+	margin-right: 0.308em;
+	margin-top: 0.077em;
 }
 .buttons2{
-	    padding-top: 0.923em;
-    min-height: 4.538em;
+	    padding-top: 0.623em;
+	    min-height: 4.538em;
 }
 .rightControl .box.box3 .f-box{
 	    margin: 0.769em auto 0;
@@ -201,4 +230,10 @@ left: 1em;
 }
 .inputValue{
 	border: 0.077em solid #000;
+}
+.canvas-container-wp{
+	padding-right: 0.154em;
+}	
+.moveLeft #main-cavas{
+	margin-right: 0;
 }
