@@ -13,7 +13,7 @@ body{
 	z-index: 0;
 }
 .container{
-	width: 142.692em;
+	width: 141.692em;
 	position: relative;
 }
 #c, canvas.upper-canvas, .canvas-container{
@@ -41,7 +41,7 @@ body{
 	width: 26.923em;
 	padding-top: 2.308em;
 	padding-left: 1.385em;
-	padding-bottom: 2.3em;
+	padding-bottom: 2.1em;
 	padding-right: 1.923em;
 }
 .rightControl .box .title{
@@ -69,8 +69,8 @@ body{
 	height: 1.026em;
 	margin-top: 3.038em;
 	margin-left: 0.487em;
-	line-height: 1;
-	font-size: 3.000em;
+	line-height: 1.1;
+	font-size: 2.800em;
 }
 .rightControl .box.box1 .slider.slider-vertical .slider-handle{
     margin-left: -0.969em;
@@ -179,16 +179,16 @@ left: 1em;
 	margin-left: 1.615em;
 }
 .rightControl .nomralBox .vl1{
-	margin-top: 1.000em;
-    margin-bottom: 0.923em;
+	margin-top: 1.55em;
+	margin-bottom: 0.923em;
 }
 .rightControl .nomralBox .vl1.vl2{
 	    margin-right: 0.692em;
-    margin-top: 0.769em;
+	    margin-top: 0.969em;
 }
 .rightControl .nomralBox .vl1 span{
-	    width: 17.000em;
-    margin-top: 1.154em;
+	    width: 18em;
+	    margin-top: 1.154em;
 }
 .rightControl .nomralBox .inputValue{
 	margin-left: 0.103em;
@@ -210,7 +210,7 @@ left: 1em;
 	margin-top: 0.077em;
 }
 .buttons2{
-	    padding-top: 0.623em;
+	    padding-top: 0.923em;
 	    min-height: 4.538em;
 }
 .rightControl .box.box3 .f-box{
