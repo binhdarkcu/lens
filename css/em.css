@@ -13,8 +13,7 @@ body{
 	z-index: 0;
 }
 .container{
-	width: 141.692em;
-	position: relative;
+	width: 140.615em;
 }
 #c, canvas.upper-canvas, .canvas-container{
 	width: 107.692em!important;
@@ -210,8 +209,8 @@ left: 1em;
 	margin-top: 0.077em;
 }
 .buttons2{
-	    padding-top: 0.923em;
-	    min-height: 4.538em;
+	    padding-top: 0.83em;
+	    min-height: 4.638em;
 }
 .rightControl .box.box3 .f-box{
 	    margin: 0.769em auto 0;
