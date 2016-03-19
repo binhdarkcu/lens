@@ -14,6 +14,11 @@ body{
 }
 .container{
 	width: 140.615em;
+	    position: absolute;
+    top: 50%;
+    margin-top: -39.7em;
+    left: 50%;
+    margin-left: -70em;
 }
 #c, canvas.upper-canvas, .canvas-container{
 	width: 107.692em!important;
