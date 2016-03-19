@@ -4,6 +4,10 @@ body{
 .rightControl{
 	z-index: 2;
 }
+table{
+	width: 100%;
+	height: 100%;
+}
 .bggray{
 	position: absolute;
 	width: 30.48em;
@@ -14,11 +18,8 @@ body{
 }
 .container{
 	width: 140.615em;
-	    position: absolute;
-    top: 50%;
-    margin-top: -39.7em;
-    left: 50%;
-    margin-left: -70em;
+	margin-top: -0.5em;
+    
 }
 #c, canvas.upper-canvas, .canvas-container{
 	width: 107.692em!important;
@@ -67,7 +68,7 @@ body{
 	width: 1.538em;
 }
 .rightControl .box.box1 .inputValue{
-	top: -0.279em;
+	top: 0.221em;
 }
 .inputValue{
 	width: 2.205em;
@@ -184,7 +185,7 @@ left: 1.2em;
 	margin-left: 1.615em;
 }
 .rightControl .nomralBox .vl1{
-	margin-top: 1.55em;
+	margin-top: 1em;
 	margin-bottom: 0.923em;
 }
 .rightControl .nomralBox .vl1.vl2{
@@ -218,7 +219,7 @@ body.moveRight .rightControl{
 	margin-top: 0.077em;
 }
 .buttons2{
-	    padding-top: 0.83em;
+	    padding-top: 0.3em;
 	    min-height: 4.638em;
 }
 .rightControl .box.box3 .f-box{
@@ -233,7 +234,7 @@ body.moveRight .rightControl{
 	    margin: 0.128em auto;
 }
 .buttons2 a#btnReset img{
-	    width: 15.872em;
+	    width: 13.872em;
 }
 .inputValue{
 	border: 0.077em solid #000;
