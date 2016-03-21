@@ -21,6 +21,9 @@ table{
 	margin-top: -0.3em;
     
 }
+#b-value, #m-value{
+	pointer-events: none;
+}
 #c, canvas.upper-canvas, .canvas-container{
 	width: 107.692em!important;
 	height: 74.923em!important;
@@ -63,7 +66,7 @@ table{
 .slider.slider-vertical{
 	height: 9.2092em;
 	margin-bottom: 2.477em;
-	margin-top: 1.923em;
+	margin-top: 1.63em;
 	margin-left: 12.9em;
 	width: 1.538em;
 }
@@ -71,12 +74,12 @@ table{
 	top: 0.221em;
 }
 .inputValue{
-	width: 2.205em;
-	height: 1.026em;
+	width: 2.505em;
+	height: 1.316em;
 	margin-top: 3.038em;
 	margin-left: 0.487em;
-	line-height: 1.1;
-	font-size: 2.800em;
+	line-height: 1.2;
+	font-size: 2.500em;
 }
 .rightControl .box.box1 .slider.slider-vertical .slider-handle{
     margin-left: -0.969em;
@@ -97,7 +100,7 @@ table{
 	-moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
 	width: 0.615em;
 	height: 11.08em;
-	bottom: -0.5em;
+	bottom: -0.7em;
 	left: 13.077em;
 	border-radius: 0.923em;
 }
@@ -198,7 +201,258 @@ left: 1.2em;
 }
 .rightControl .nomralBox .inputValue{
 	margin-left: 0.103em;
-    width: 3.028em;
+	width: 3.428em;
+	line-height: 1.53em;
+}
+.rightControl .nomralBox .vl1.vl2 span{
+	width: 3.615em;
+}
+.rightControl .box{
+	box-shadow: 0.231em 0.231em 0px #595757;
+    margin-bottom: 1.538em;
+}
+body.moveRight .rightControl{
+	float: left;
+}
+.buttons2 a{
+	    width: 11.692em;
+}
+.buttons2 a.btn2{
+	width: 12.031em;
+	margin-right: 0.308em;
+	margin-top: 0.077em;
+}
+.buttons2{
+	    padding-top: 0.3em;
+	    min-height: 4.638em;
+}
+.rightControl .box.box3 .f-box{
+	    margin: 0.769em auto 0;
+	    padding-bottom: 0.223em;
+}
+.rightControl .box.box2 .labelA input{
+	margin-left: 0.128em;
+    margin-top: 0.385em;
+}
+.buttons2 a#btnReset{
+	    margin: 0.128em auto;
+}
+.buttons2 a#btnReset img{
+	    width: 13.872em;
+}
+.inputValue{
+	border: 0.077em solid #000;
+}
+.canvas-container-wp{
+	padding-right: 0.154em;
+}	
+.moveLeft #main-cavas{
+	margin-right: 0;
+}body{
+	overflow-y: hidden;
+}
+.rightControl{
+	z-index: 2;
+}
+table{
+	width: 100%;
+	height: 100%;
+}
+.bggray{
+	position: absolute;
+	width: 30.48em;
+	height: 100%;
+	right: 2em;
+	background: #d3d3d3;
+	z-index: 0;
+}
+.container{
+	width: 140.615em;
+	margin-top: -0.3em;
+    
+}
+#b-value, #m-value{
+	pointer-events: none;
+}
+#c, canvas.upper-canvas, .canvas-container{
+	width: 107.692em!important;
+	height: 74.923em!important;
+}
+.canvas-container{
+	margin-top: 2.308em;
+	box-shadow: 0.231em 0.231em 0 #595757;
+	margin-bottom: 2.154em;
+}
+.changeview{
+	height: 79.346em;
+	width: 2.308em;
+	margin-left: 0;
+}
+.slider.slider-horizontal .slider-track{
+	height: 0.692em;
+	margin-top: -0.385em;
+}
+.changeview a img{
+	width: 100%;
+}
+.rightControl{
+	width: 26.923em;
+	padding-top: 2.308em;
+	padding-left: 1.385em;
+	padding-bottom: 2.2em;
+	padding-right: 1.93em;
+	height: 75.02em;
+}
+.rightControl .box .title{
+	width: 26.769em;
+}
+.slider-track{
+	    border-radius: 0.923em;
+}
+.slider.slider-vertical .slider-track{
+	width: 0.615em;
+	margin-left: -0.385em;
+}
+.slider.slider-vertical{
+	height: 9.2092em;
+	margin-bottom: 2.477em;
+	margin-top: 1.63em;
+	margin-left: 12.9em;
+	width: 1.538em;
+}
+.rightControl .box.box1 .inputValue{
+	top: 0.221em;
+}
+.inputValue{
+	width: 2.505em;
+	height: 1.316em;
+	margin-top: 3.038em;
+	margin-left: 0.487em;
+	line-height: 1.2;
+	font-size: 2.500em;
+}
+.rightControl .box.box1 .slider.slider-vertical .slider-handle{
+    margin-left: -0.969em;
+    box-shadow: 0.154em 0.154em 0.308em #898989;
+}
+.slider.slider-vertical .slider-handle{
+	margin-top: -0.854em;
+}
+.slider-handle{
+	    width: 2.077em;
+	    height: 2.231em;
+	    background-size: cover;
+}
+.lentemp
+{
+	box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	-webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	-moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	width: 0.615em;
+	height: 11.08em;
+	bottom: -0.7em;
+	left: 13.077em;
+	border-radius: 0.923em;
+}
+.box2dif .slider.slider-horizontal{
+	width: 20.154em;
+	margin-left: 2.738em;
+}
+.slider.slider-horizontal{
+	    margin: 1.154em auto 0.769em;
+	    padding-bottom: 2.823em;
+	    margin-right: 2.692em;
+	    height: 1.615em;
+}
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
+	background-size: cover;
+	box-shadow: 0.154em 0.154em 0.308em #898989;
+	margin-top: -1.000em;
+}
+.rightControl .circle-img{
+	width: 1.154em;
+	margin-left: -1.585em;
+}
+.atemp{
+	    box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    background: #595757;
+    height: 0.615em;
+    width: 21.538em;
+    border-radius: 0.923em;
+    bottom: -3.615em;
+    left: 2.077em;
+}
+.rightControl .box.box2 .slider.slider-horizontal .slider-handle{
+	margin-left: -1.2em;
+}
+.rightControl .box.box2 .labelA span{
+
+}
+.rightControl .box.box2 .labelA span img{
+top: 0.154em;
+width: 4.077em;
+}
+.rightControl .box.box3 .labelA span img{
+    top: 0.6em;
+}
+.rightControl .box.box3 .f-box .slider.slider-horizontal{
+	    padding-bottom: 2.692em;
+    margin-bottom: 0.308em;
+    left: -0.538em;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+	    width: 8.846em;
+    margin-right: 0.231em;
+}
+.rightControl .box.box3 .slider.slider-horizontal{
+	    margin: 0.385em auto 0.769em;
+}
+.tempspan{
+	background-size: contain;
+	width: 1.154em;
+	height: 5.692em;
+	bottom: 0.385em;
+	margin-left: -0.25em;
+}
+.rightControl .box.box3 .ftemp{
+	box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+    background: #595757;
+    height: 0.615em;
+    border-radius: 0.923em;
+    width: 22.308em;
+    bottom: -2.615em;
+    left: -1.154em;
+}
+.rightControl .box.box3 .f-box > .slider.slider-horizontal .slider-handle{
+	    margin-left: -0.923em;
+}
+.rightControl .box.box3 .f-box .f-control-2 .slider.slider-horizontal{
+
+left: 1.2em;
+}
+.f-control-2{
+	margin-left: 1.615em;
+}
+.rightControl .nomralBox .vl1{
+	margin-top: 1em;
+	margin-bottom: 0.823em;
+}
+.rightControl .nomralBox .vl1.vl2{
+	    margin-right: 0.692em;
+	    margin-top: 0.34em;
+}
+.rightControl .nomralBox .vl1 span{
+	    width: 18em;
+	    margin-top: 1.154em;
+}
+.rightControl .nomralBox .inputValue{
+	margin-left: 0.103em;
+	width: 3.428em;
+	line-height: 1.53em;
 }
 .rightControl .nomralBox .vl1.vl2 span{
 	width: 3.615em;
