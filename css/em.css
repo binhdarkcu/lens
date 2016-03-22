@@ -465,12 +465,12 @@ body.moveRight .rightControl{
 	float: left;
 }
 .buttons2 a{
-	    width: 11.692em;
+	    width: 11.892em;
 }
 .buttons2 a.btn2{
-	width: 12.031em;
-	margin-right: 0.308em;
-	margin-top: 0.077em;
+	 width: 12.031em;
+    margin-right: 0.48em;
+    margin-top: -0.1em;
 }
 .buttons2{
 	    padding-top: 0.3em;
