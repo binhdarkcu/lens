@@ -1,5 +1,6 @@
 body{
 	overflow-y: hidden;
+	position: relative;
 }
 .rightControl{
 	z-index: 2;
@@ -438,8 +439,8 @@ left: 1.2em;
 	margin-left: 1.615em;
 }
 .rightControl .nomralBox .vl1{
-	margin-top: 1em;
-	margin-bottom: 0.823em;
+	margin-top: .9em;
+	margin-bottom: 0.723em;
 }
 .rightControl .nomralBox .vl1.vl2{
 	    margin-right: 0.692em;
@@ -465,12 +466,12 @@ body.moveRight .rightControl{
 	float: left;
 }
 .buttons2 a{
-	    width: 11.892em;
+	    width: 11.692em;
 }
 .buttons2 a.btn2{
-	 width: 12.031em;
-    margin-right: 0.48em;
-    margin-top: -0.1em;
+	 width: 11.731em;
+	 margin-right: 0.48em;
+	 margin-top: -0.1em;
 }
 .buttons2{
 	    padding-top: 0.3em;
@@ -488,7 +489,7 @@ body.moveRight .rightControl{
 	    margin: 0.128em auto;
 }
 .buttons2 a#btnReset img{
-	    width: 13.872em;
+	    width: 15.12em;
 }
 .inputValue{
 	border: 0.077em solid #000;
