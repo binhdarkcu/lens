@@ -1,6 +1,5 @@
 body{
 	overflow-y: hidden;
-	position: relative;
 }
 .rightControl{
 	z-index: 2;
@@ -400,12 +399,12 @@ width: 4.077em;
 }
 .rightControl .box.box3 .f-box .slider.slider-horizontal{
 	    padding-bottom: 2.692em;
-    margin-bottom: 0.308em;
-    left: -0.538em;
+	    margin-bottom: 0.308em;
+	    left: -0.5em;
 }
 .rightControl .box.box3 .slider.slider-horizontal{
-	    width: 8.846em;
-    margin-right: 0.231em;
+	    width: 8.946em;
+	    margin-right: 0.231em;
 }
 .rightControl .box.box3 .slider.slider-horizontal{
 	    margin: 0.385em auto 0.769em;
@@ -419,14 +418,14 @@ width: 4.077em;
 }
 .rightControl .box.box3 .ftemp{
 	box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    -webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    -moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
-    background: #595757;
-    height: 0.615em;
-    border-radius: 0.923em;
-    width: 22.308em;
-    bottom: -2.615em;
-    left: -1.154em;
+	-webkit-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	-moz-box-shadow: 0px 0px 0px 0.308em #C9CABA;
+	background: #595757;
+	height: 0.615em;
+	border-radius: 0.923em;
+	width: 22.68em;
+	bottom: -2.615em;
+	left: -1.454em;
 }
 .rightControl .box.box3 .f-box > .slider.slider-horizontal .slider-handle{
 	    margin-left: -0.923em;
@@ -439,24 +438,26 @@ left: 1.2em;
 	margin-left: 1.615em;
 }
 .rightControl .nomralBox .vl1{
-	margin-top: .9em;
-	margin-bottom: 0.723em;
+	margin-top: 1em;
+	margin-bottom: 0.823em;
 }
 .rightControl .nomralBox .vl1.vl2{
-	    margin-right: 0.692em;
+	    margin-right: 0;
 	    margin-top: 0.34em;
 }
 .rightControl .nomralBox .vl1 span{
-	    width: 18em;
+	    width: 17.2em;
 	    margin-top: 1.154em;
 }
 .rightControl .nomralBox .inputValue{
 	margin-left: 0.103em;
 	width: 3.428em;
 	line-height: 1.53em;
+	float: right;
+	margin-right: -0.02em;
 }
 .rightControl .nomralBox .vl1.vl2 span{
-	width: 3.615em;
+	width: 3.615em;margin-right: 0.4em;
 }
 .rightControl .box{
 	box-shadow: 0.231em 0.231em 0px #595757;
@@ -466,12 +467,13 @@ body.moveRight .rightControl{
 	float: left;
 }
 .buttons2 a{
-	    width: 11.692em;
+	    width: 11.892em;
 }
 .buttons2 a.btn2{
-	 width: 11.731em;
-	 margin-right: 0.48em;
+	 width: 12.031em;
+	 margin-right: 0;
 	 margin-top: -0.1em;
+	 margin-right: -0.18em;
 }
 .buttons2{
 	    padding-top: 0.3em;
@@ -489,7 +491,7 @@ body.moveRight .rightControl{
 	    margin: 0.128em auto;
 }
 .buttons2 a#btnReset img{
-	    width: 15.12em;
+	    width: 13.872em;
 }
 .inputValue{
 	border: 0.077em solid #000;
@@ -499,4 +501,9 @@ body.moveRight .rightControl{
 }	
 .moveLeft #main-cavas{
 	margin-right: 0;
+}
+@-moz-document url-prefix() {
+    .rightControl .nomralBox .vl1 span{
+    	width: 17em;
+    }
 }
