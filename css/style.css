@@ -20,13 +20,14 @@ body{background: #fff;margin: 0;width: 100%;height: 100%;}
     float: left;
 }
 .rightControl{
-    float: left;
+        float: left;
     width: 350px;
     padding-top: 30px;
     background: #d3d3d3;
     padding-left: 18px;
-    padding-bottom: 24px;
+    padding-bottom: 29px;
     padding-right: 25px;
+        height: 1003px;
 }
 .rightControl .box .title{
     width: 348px;
@@ -51,11 +52,11 @@ body{background: #fff;margin: 0;width: 100%;height: 100%;}
     /* margin-top: 28px; */
 }
 .rightControl .nomralBox .vl1 span{
-    width: 221px;
+    width: 215px;
     margin-top: 15px;
 }
 .rightControl .nomralBox .vl1{
-    margin-top: 13px;
+    margin-top: 10px;
     float: left;
     margin-bottom: 12px;
     width: 100%;
@@ -63,8 +64,8 @@ body{background: #fff;margin: 0;width: 100%;height: 100%;}
 .rightControl .nomralBox .vl1.vl2{
     float: right;
     width: auto;
-    margin-right: 9px;
-    margin-top: 10px;
+    margin-right: 0;
+    margin-top: 6px;
 }
 .rightControl .nomralBox .vl1.vl2 span{
     width: 47px;
@@ -74,9 +75,11 @@ body{background: #fff;margin: 0;width: 100%;height: 100%;}
 }
 .rightControl .nomralBox .inputValue{
     margin-top:0;
-    float: left;
+    float: right;
     margin-left: 4px;
     width: 122px;
+    position: relative;
+    left: 2px;
 }
 .rightControl .nomralBox .vl1 img{
     width: 100%;
@@ -158,8 +161,8 @@ margin-top: 15px;
     border-radius: 10px;
 }
 .buttons2{
-    padding-top: 12px;
-    min-height: 59px;
+    padding-top: 5px;
+    min-height: 62px;
 }
 .buttons2 a#btnReset img{
     width: 190px;
@@ -253,7 +256,7 @@ margin-top: 15px;
     width: 86px;
     font-size: 39px;
     height: 40px;
-    line-height: 22px;
+    line-height: 100%;
     text-align: center;
     font-weight: bold;
     margin-top: 138px;
@@ -397,7 +400,7 @@ body.moveRight .canvas-container-wp{
 .changeview{
     float: left;
     margin-left: 30px;
-    height: 1064px;
+    height: 1060px;
     width: 30px;
     background: #d3d3d3;
 }

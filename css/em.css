@@ -1,5 +1,10 @@
-body{
+html, body {
+    -webkit-text-size-adjust: none;
+-webkit-text-size-adjust: 100%
+}
+body.IE{
 	overflow-y: hidden;
+	
 }
 .rightControl{
 	z-index: 2;
@@ -248,11 +253,6 @@ body.moveRight .rightControl{
 }	
 .moveLeft #main-cavas{
 	margin-right: 0;
-}body{
-	overflow-y: hidden;
-}
-.rightControl{
-	z-index: 2;
 }
 table{
 	width: 100%;
